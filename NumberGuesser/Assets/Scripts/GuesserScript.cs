@@ -28,16 +28,20 @@ public class GuesserScript : MonoBehaviour
     private void NextGuess(){
         count--;
         //figure out how to get guess to be more randomized**************************************
-        guess = (min + max) / 2;
+        guess = (Random.Range(min, max));
         print("Is the number" + guess + "?");
      }
     
 
     // Update is called once per frame
     public void Update()
-    {
+    {   
+        if (count <= 0)
+        {
+            print("Computer Lose!");
+        }
         //Up arrow
-        if (Input.GetKeyDown(KeyCode.UpArrow)){
+        else if (Input.GetKeyDown(KeyCode.UpArrow)){
         min = guess;
         NextGuess();
     }
@@ -55,8 +59,8 @@ public class GuesserScript : MonoBehaviour
             print("COMPUTER WIN!");
         //figure out how how to make zero a lose
         {
-
+          
         }
-
+     
     }
 }
