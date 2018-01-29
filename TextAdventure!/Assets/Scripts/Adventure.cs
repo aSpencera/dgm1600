@@ -8,7 +8,7 @@ public class Adventure : MonoBehaviour {
     public enum States { cell, window, breakingWindow, brokenWindow, windowUnlocked, doorUnlocked, doorLocked, bed, bedChecked, bedOpenChecked, sleep, check, cellUnlocked, leftHallway,leftHallwayHammer, rightHallway, cellOpen, doorOpen, tree, jump};
     public States currentState;
     public Text textObject;
-
+    public Text titleObject;
 
 
     // Use this for initialization
@@ -102,6 +102,7 @@ public class Adventure : MonoBehaviour {
     
     private void Cell()
     {
+        titleObject.text = "Rusty Ol' Cell\n ";
         textObject.text = "You are in an old dark cell, and you think to yourself, Todays the day I get outta here!\n " +
             "There is a Window.\n " +
             "There is a Door.\n " +
@@ -114,6 +115,7 @@ public class Adventure : MonoBehaviour {
     }
     private void CellOpen()
     {
+        titleObject.text = "Rusty Ol' Cell\n ";
         textObject.text = "You are in an old dark cell, and you think to yourself, Todays the day I get outta here!\n " +
             "You now have a Hammer!\n " +
             "There is a Window.\n " +
@@ -127,6 +129,7 @@ public class Adventure : MonoBehaviour {
     }
     private void CellUnlocked()
     {
+        titleObject.text = "Rusty Ol' Cell\n ";
         textObject.text = "You are in an old dark cell, and you think to yourself, Todays the day I get outta here!\n " +
              "You now have a key to open the Door!\n " +
              "There is a Window.\n " +
@@ -139,6 +142,7 @@ public class Adventure : MonoBehaviour {
     }
     private void DoorLocked()
     {
+        titleObject.text = "Rusty Ol' Cell\n ";
         textObject.text = "The Door is locked, you must find the Key before you can leave the Cell.\n " +
            "Would you like to return to the Cell?\n " +
            "Press C for Cell.\n ";
@@ -149,6 +153,7 @@ public class Adventure : MonoBehaviour {
     //Fix this command for Cell to a new cell with an open door or something to the same effect.   *************
     private void DoorUnlocked()
     {
+        titleObject.text = "Divided Hallway\n ";
         textObject.text = "You use the key in the door. As you turn the Key you hear the gears in the door twisting and turnning and finally... Click!\n " +
             "The Door sweeps open and you see two Hallways. One goes Left and the other Right.\n " +
             "Would you like to go Left?\n " +
@@ -162,6 +167,7 @@ public class Adventure : MonoBehaviour {
     }
     private void DoorOpen()
     {
+        titleObject.text = "Divided Hallway\n ";
         textObject.text = "You open the Door and see two Hallways. One goes Left and the other Right.\n " +
             "Would you like to go Left?\n " +
             "Would you like to go Right?\n " +
@@ -176,6 +182,7 @@ public class Adventure : MonoBehaviour {
     //After finding the key there should be a new 'bed' when you return to the cell************
     private void Bed()
     {
+        titleObject.text = "Dos Place To Sleeping in\n ";
         textObject.text = "You see an old stained bed resting on the floor.\n " +
             "Would you like to Sleep in the bed?\n " +
             "Would you like to Check the bed?\n " +
@@ -187,6 +194,7 @@ public class Adventure : MonoBehaviour {
     }
     private void BedChecked()
     {
+        titleObject.text = "Dos Place To Sleeping in\n ";
         textObject.text = "You see an old stained bed resting on the floor.\n " +
             "Would you like to Sleep in the bed?\n " +
             "Would you like to return to the Cell?\n " +
@@ -196,6 +204,7 @@ public class Adventure : MonoBehaviour {
     }
     private void BedOpenChecked()
     {
+        titleObject.text = "Dos Place To Sleeping in\n ";
         textObject.text = "You see an old stained bed resting on the floor.\n " +
             "Would you like to Sleep in the bed?\n " +
             "Would you like to return to the Cell?\n " +
@@ -206,6 +215,7 @@ public class Adventure : MonoBehaviour {
 
     private void Sleep()
     {
+        titleObject.text = "ZZZzzz\n ";
         textObject.text = "You fell asleep and never tried to escape. \n" +
             "GAME OVER, YOU LOSE!\n " +
             "Press R to Restart.\n ";
@@ -213,6 +223,7 @@ public class Adventure : MonoBehaviour {
     }
     private void Check()
     {
+        titleObject.text = "Dos Place To Sleeping in\n ";
         textObject.text = "You found a Key under the bed, and decide to keep it!\n " +
             "Would you like to Sleep?\n " +
             "Would you like to return to the Cell?\n " +
@@ -223,6 +234,7 @@ public class Adventure : MonoBehaviour {
     }
     private void Window()
     {
+        titleObject.text = "Through The Looking Glass\n ";
         textObject.text = "You see a dark rainy sky out the Window and feel like breaking it!\n " +
             "At the moment you have nothing to Smash the Window with.\n " +
             "Would you like to return to the Cell?\n " +
@@ -231,6 +243,7 @@ public class Adventure : MonoBehaviour {
     }
     private void BreakingWindow()
     {
+        titleObject.text = "Through The Looking Glass\n ";
         textObject.text = "You see a dark rainy sky out the Window and feel like breaking it!\n " +
             "You now have a Hammer!\n " +
             "Would you like to Smash the Window?\n " +
@@ -241,6 +254,7 @@ public class Adventure : MonoBehaviour {
     }
     private void BrokenWindow()
     {
+        titleObject.text = "Through The Looking Glass\n ";
         textObject.text = "You stirke the Window with mighty force and the glass shatters!\n " +
             "As you look out you see a Tree, but you think that you might just be able to jump out.\n " +
             "Press J to Jump, T to climb down the Tree.\n ";
@@ -249,6 +263,7 @@ public class Adventure : MonoBehaviour {
     }
     private void WindowUnlocked()
     {
+        titleObject.text = "Through The Looking Glass\n ";
         textObject.text = "You see a dark rainy sky out the Window and feel like breaking it!\n " +
             "At the moment you have nothing to Smash the Window with.\n " +
             "Would you like to return to the Cell?\n " +
@@ -257,6 +272,7 @@ public class Adventure : MonoBehaviour {
     }
     private void LeftHallway()
     {
+        titleObject.text = "Sneaky Sneaky Left Hand Sneaking\n ";
         textObject.text = "As you start to walk down the Hallway you see a gaurd walking towards you!\n " +
             "You need to Escape soon or the Gaurd with catch you!\n " +
             "Press C to return to Cell.\n " +
@@ -266,6 +282,7 @@ public class Adventure : MonoBehaviour {
     }
     private void LeftHallwayHammer()
     {
+        titleObject.text = "Sneaky Sneaky Left Hand Sneaking\n ";
         textObject.text = "As you start to walk down the Hallway you see a gaurd walking towards you!\n " +
             "You need to Escape soon or the Gaurd with catch you!\n " +
             "Press C to return to Cell.\n " +
@@ -275,6 +292,7 @@ public class Adventure : MonoBehaviour {
     }
     private void RightHallway()
     {
+        titleObject.text = "Little Red 'Right'ing Hood\n ";
         textObject.text = "You walk down the Right Hallway and find an Almost Empty Room.\n " +
             "On the floor you see a Hammer and decide to keep it.\n " +
             "Would you like to go Left?\n " +
@@ -285,12 +303,14 @@ public class Adventure : MonoBehaviour {
     }
     private void Tree()
     {
+        titleObject.text = "In The Tree, Part Of The Tree\n ";
         textObject.text = "You climb down the tree and safely get to the ground!\n " +
             "You run away and no one is the wiser.\n " +
             "WINNER!\n ";
     }
     private void Jump()
     {
+        titleObject.text = "Free Falling!\n ";
         textObject.text = "You try jumping to freedom, but the fall was to much for you.\n " +
             "You broke both of your legs and could not run away!\n " +
             "GAME OVER, YOU LOSE!\n " +
