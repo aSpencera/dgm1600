@@ -1,13 +1,13 @@
 fileFormatVersion: 2
 guid: 9c06328e971be354f845b45b83b4ca1d
-timeCreated: 1517847498
+timeCreated: 1518627176
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: Brick1
     21300002: Ball
-    21300004: Brick2
-    21300006: Brick3
+    21300004: BrickCracked
+    21300006: BrickBroken
     21300008: Paddle
   serializedVersion: 4
   mipmaps:
@@ -120,7 +120,7 @@ TextureImporter:
         width: 13
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,13 +134,13 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Brick2
+      name: BrickCracked
       rect:
         serializedVersion: 2
         x: 0
@@ -148,13 +148,13 @@ TextureImporter:
         width: 13
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Brick3
+      name: BrickBroken
       rect:
         serializedVersion: 2
         x: 1
@@ -162,7 +162,7 @@ TextureImporter:
         width: 12
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,7 +176,7 @@ TextureImporter:
         width: 27
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
