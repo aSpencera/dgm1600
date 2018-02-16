@@ -12,4 +12,6 @@ public class Ball : MonoBehaviour {
         AudioSource.PlayClipAtPoint(hitSound, collision.transform.position);
     }
 
+
+
 }
