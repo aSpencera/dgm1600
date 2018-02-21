@@ -8,6 +8,7 @@ public class LevelManager : MonoBehaviour
 
 
     public static LevelManager instance = null;
+    public static int brickCount;
 
 
     void Awake()
@@ -30,11 +31,19 @@ public class LevelManager : MonoBehaviour
 
     public void LoadLevel(string level)
     {
+        brickCount = 0;
         SceneManager.LoadScene(level);
     }
 
 
-
+    public void LoadNextLevel()
+    {
+        brickCount = 0;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    
+        
+    
 
 
 
