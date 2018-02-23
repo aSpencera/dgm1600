@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour {
 
     public int health;
     public Sprite newSprite;
     public Sprite newSprite2;
+    public Sprite[] sprites;
 
     private void Awake()
     {
@@ -34,9 +36,15 @@ public class Health : MonoBehaviour {
             DestroyObject(gameObject);       //then destroy
         }
     
-        if(LevelManager.brickCount == 0)
+        if(LevelManager.brickCount <= 0)
         {
-            FindObjectOfType<LevelManager>().LoadNextLevel();
+            
+            LevelManager.brickCount--;
+            if (LevelManager.brickCount == 0)
+            {
+                FindObjectOfType<LevelManager>().LoadNextLevel();
+            }
+            Destroy(gameObject);
         }
 
     }

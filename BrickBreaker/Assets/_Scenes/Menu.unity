@@ -378,6 +378,7 @@ MonoBehaviour:
   health: 1
   newSprite: {fileID: 0}
   newSprite2: {fileID: 0}
+  sprites: []
 --- !u!1 &262907856
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,6 +498,7 @@ MonoBehaviour:
   health: 1
   newSprite: {fileID: 0}
   newSprite2: {fileID: 0}
+  sprites: []
 --- !u!1 &348516242
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,6 +614,7 @@ MonoBehaviour:
   health: 1
   newSprite: {fileID: 0}
   newSprite2: {fileID: 0}
+  sprites: []
 --- !u!1 &355312941
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,6 +734,7 @@ MonoBehaviour:
   health: 1
   newSprite: {fileID: 0}
   newSprite2: {fileID: 0}
+  sprites: []
 --- !u!1 &388275569
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,7 +810,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1592442997}
+      - m_Target: {fileID: 114836891619468334, guid: 8578aa8f7bea0264bb9fa74397ca8cf7,
+          type: 2}
         m_MethodName: LoadLevel
         m_Mode: 5
         m_Arguments:
@@ -1044,6 +1049,7 @@ MonoBehaviour:
   health: 1
   newSprite: {fileID: 0}
   newSprite2: {fileID: 0}
+  sprites: []
 --- !u!1 &732053629
 GameObject:
   m_ObjectHideFlags: 0
@@ -1225,6 +1231,7 @@ MonoBehaviour:
   health: 1
   newSprite: {fileID: 0}
   newSprite2: {fileID: 0}
+  sprites: []
 --- !u!1 &963041357
 GameObject:
   m_ObjectHideFlags: 0
@@ -1557,6 +1564,7 @@ MonoBehaviour:
   health: 1
   newSprite: {fileID: 0}
   newSprite2: {fileID: 0}
+  sprites: []
 --- !u!1 &1301377323
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,6 +1683,7 @@ MonoBehaviour:
   health: 1
   newSprite: {fileID: 0}
   newSprite2: {fileID: 0}
+  sprites: []
 --- !u!1 &1382376366
 GameObject:
   m_ObjectHideFlags: 0
@@ -1860,6 +1869,7 @@ MonoBehaviour:
   health: 1
   newSprite: {fileID: 0}
   newSprite2: {fileID: 0}
+  sprites: []
 --- !u!1 &1421083426
 GameObject:
   m_ObjectHideFlags: 0
@@ -1978,6 +1988,7 @@ MonoBehaviour:
   health: 1
   newSprite: {fileID: 0}
   newSprite2: {fileID: 0}
+  sprites: []
 --- !u!1 &1504717441
 GameObject:
   m_ObjectHideFlags: 0
@@ -2101,6 +2112,7 @@ MonoBehaviour:
   health: 1
   newSprite: {fileID: 0}
   newSprite2: {fileID: 0}
+  sprites: []
 --- !u!1 &1556334462
 GameObject:
   m_ObjectHideFlags: 0
@@ -2225,12 +2237,7 @@ MonoBehaviour:
   health: 1
   newSprite: {fileID: 0}
   newSprite2: {fileID: 0}
---- !u!114 &1592442997 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114836891619468334, guid: 8578aa8f7bea0264bb9fa74397ca8cf7,
-    type: 2}
-  m_PrefabInternal: {fileID: 1967267247}
-  m_Script: {fileID: 11500000, guid: 6af9fea83fe4a0e408433dae62f4ff4c, type: 3}
+  sprites: []
 --- !u!1 &1763497365
 GameObject:
   m_ObjectHideFlags: 0
