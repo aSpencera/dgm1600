@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Goin Kuku Crazy.unity
+- path: Assets/_Scenes/Goin Kuku Crazy.unity
   isLoaded: 1
   isActive: 1
