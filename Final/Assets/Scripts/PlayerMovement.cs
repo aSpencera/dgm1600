@@ -40,6 +40,12 @@ public class PlayerMovement : MonoBehaviour {
             //Unflip
             rend.flipX = false;
         }
-		
+		if (Input.GetButton("Fire1"))               //Fire1 is a preset function for the mouse
+        {
+            anim.SetTrigger("ShootGo");
+        }
+
+
+
 	}
 }
