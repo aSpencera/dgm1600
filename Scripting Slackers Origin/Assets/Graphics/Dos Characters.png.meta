@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 5bc2ae4db778ef04eaea8337c536e403
-timeCreated: 1520616539
-licenseType: Pro
+timeCreated: 1520643723
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Wiz Stand
@@ -209,7 +209,7 @@ TextureImporter:
         serializedVersion: 2
         x: 76
         y: 337
-        width: 22
+        width: 23
         height: 51
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -225,8 +225,8 @@ TextureImporter:
         y: 365
         width: 10
         height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5403641, y: 0.7981817}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -309,8 +309,8 @@ TextureImporter:
         y: 360
         width: 8
         height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83636475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -337,8 +337,8 @@ TextureImporter:
         y: 343
         width: 8
         height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.52522755, y: 0.8094564}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -351,8 +351,8 @@ TextureImporter:
         y: 338
         width: 10
         height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.43945464, y: 0.82107544}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

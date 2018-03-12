@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
         //Check for button pushes
 
         rigid.AddForce(new Vector2(Input.GetAxis("Horizontal") * speed, 0), ForceMode2D.Force);
-        anim.SetFloat("HorizontalGo", Input.GetAxisRaw("Horizontal"));
+        anim.SetFloat("HorizonGo", Input.GetAxisRaw("Horizontal"));
 
         if (Input.GetAxisRaw("Horizontal") < -0.1f)
         {
