@@ -9,13 +9,13 @@ public class DestroyerScript : MonoBehaviour {
 	{
 		if (Other.tag == "Player")
 		{
-			Debug.Break ();
+			Application.LoadLevel(1);
 			return;
 		}
 			
-		if (Other.gameObject.transform.parent)
+		if (Other.gameObject.transform)
 		{
-			Destroy (Other.gameObject.transform.parent.gameObject);
+			Destroy (Other.gameObject.transform.gameObject);
 		}
 
 		else 

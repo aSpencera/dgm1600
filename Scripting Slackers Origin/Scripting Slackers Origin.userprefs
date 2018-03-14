@@ -1,12 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SpawnScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DestroyerScript.cs">
     <Files>
       <File FileName="Assets\Scripts\PlayerMovement.cs" Line="35" Column="35" />
       <File FileName="Assets\Scripts\CameraRunnerScript.cs" Line="12" Column="40" />
       <File FileName="Assets\Scripts\MouseMovement.cs" Line="11" Column="16" />
-      <File FileName="Assets\Scripts\DestroyerScript.cs" Line="27" Column="3" />
+      <File FileName="Assets\Scripts\DestroyerScript.cs" Line="13" Column="11" />
       <File FileName="Assets\Scripts\SpawnScript.cs" Line="5" Column="19" />
+      <File FileName="Assets\Scripts\HudScript.cs" Line="23" Column="2" />
+      <File FileName="Assets\Scripts\PowerUpScript.cs" Line="18" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
