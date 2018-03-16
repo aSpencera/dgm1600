@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 70325598489622188}
   - component: {fileID: 50387191440069226}
   - component: {fileID: 95954373556045028}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Davinci Man
   m_TagString: Player
   m_Icon: {fileID: 0}

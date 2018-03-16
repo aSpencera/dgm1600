@@ -20,7 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4516661726067472}
   - component: {fileID: 212766720933598742}
-  m_Layer: 0
+  - component: {fileID: 114783468551465750}
+  m_Layer: 9
   m_Name: AstroArm1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -36,7 +37,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4415854925239270}
   - component: {fileID: 212824910300404682}
-  m_Layer: 0
+  - component: {fileID: 114563610953997138}
+  m_Layer: 9
   m_Name: AstroArm2
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -56,7 +58,7 @@ GameObject:
   - component: {fileID: 50494179373208082}
   - component: {fileID: 114510770834421200}
   - component: {fileID: 70260278156505014}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Astroman Crouch
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -168,8 +170,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
-  jump: 50
+  jump: 1.3
   isGrounded: 0
+  col: {fileID: 0}
+  groundLayers:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &114563610953997138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1254495726874158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114783468551465750
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1048003685051532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212766720933598742
 SpriteRenderer:
   m_ObjectHideFlags: 1
