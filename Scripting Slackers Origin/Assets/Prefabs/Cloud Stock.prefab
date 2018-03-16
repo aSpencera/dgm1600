@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 50057906235691870}
   - component: {fileID: 234209135299748160}
   - component: {fileID: 70752612208482350}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Cloud Stock
   m_TagString: Untagged
   m_Icon: {fileID: 0}

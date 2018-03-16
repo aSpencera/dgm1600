@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer rend;
     public float jump;
     public bool isGrounded;
+	public CapsuleCollider2D col;
+	public LayerMask groundLayers;
 
 
     // Use this for initialization
@@ -52,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (isGrounded && Input.GetButtonDown("Jump"))
         {
-            rigid.AddForce(new Vector2(0, jump), ForceMode2D.Force);
+			rigid.AddForce(new Vector2(0, jump), ForceMode2D.Impulse);
         }
 
 
@@ -75,4 +77,14 @@ public class PlayerMovement : MonoBehaviour
             isGrounded = false;
         }
     }
+
+	private bool IsGrounded()
+	{
+		return Physics.CheckCapsule (col.bounds.center, new Vector3 (col.bounds.center.x, col.bounds.min.y, 0f), groundLayers);
+	}
+
+
+
+
+
 }

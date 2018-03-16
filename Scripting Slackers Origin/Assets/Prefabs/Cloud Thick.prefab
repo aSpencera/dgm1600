@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 70900711282801152}
   - component: {fileID: 50298308499041596}
   - component: {fileID: 234569697685723464}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Cloud Thick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
