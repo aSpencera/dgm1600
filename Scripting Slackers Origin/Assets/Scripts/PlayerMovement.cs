@@ -16,8 +16,6 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer rend;
     public float jump;
     public bool isGrounded;
-	public CapsuleCollider2D col;
-	public LayerMask groundLayers;
 
 
     // Use this for initialization
@@ -47,10 +45,7 @@ public class PlayerMovement : MonoBehaviour
             //Unflip
             rend.flipX = false;
         }
-        if (Input.GetButton("Fire1"))               //Fire1 is a preset function for the mouse
-        {
-            anim.SetTrigger("ShootGo");
-        }
+        
 
         if (Input.GetButtonDown("Jump"))
         {
@@ -92,10 +87,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-	private bool IsGrounded()
-	{
-		return Physics.CheckCapsule (col.bounds.center, new Vector3 (col.bounds.center.x, col.bounds.min.y, 0f), groundLayers);
-	}
+
 
 
 
