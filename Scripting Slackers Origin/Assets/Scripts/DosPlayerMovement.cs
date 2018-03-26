@@ -5,9 +5,8 @@ using UnityEngine;
 
 
 
-[RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(CapsuleCollider2D))]
-public class PlayerMovement : MonoBehaviour
+
+public class DosPlayerMovement : MonoBehaviour
 {
 
     private Rigidbody2D rigid;
@@ -16,6 +15,8 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer rend;
     public float jump;
     public bool isGrounded;
+
+
 
 
     // Use this for initialization
@@ -39,11 +40,13 @@ public class PlayerMovement : MonoBehaviour
         {
             //Flip sprite renderer
             rend.flipX = true;
+          
         }
-        else
+        else if (Input.GetAxisRaw("Horizontal") < 0.1f)
         {
             //Unflip
             rend.flipX = false;
+           
         }
         
 
