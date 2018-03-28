@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/PapHapMap.unity
+- path: Assets/_Scenes/Map_FlappyJoyride.Davinci.unity
   isLoaded: 1
   isActive: 1
