@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< Updated upstream
 - path: Assets/_Scenes/Map_FlappyJoyride.Davinci.unity
+=======
+- path: Assets/_Scenes/Map_FlappyJoyride.Mountain.unity
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
