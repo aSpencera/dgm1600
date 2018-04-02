@@ -52,8 +52,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ArmRotation.cs" />
+     <Compile Include="Assets\Scripts\BossDeath.cs" />
      <Compile Include="Assets\Scripts\BulletFire.cs" />
      <Compile Include="Assets\Scripts\CameraRunnerScriptY.cs" />
+     <Compile Include="Assets\Scripts\CameraRunnerScriptZ.cs" />
      <Compile Include="Assets\Scripts\CoinCollector.cs" />
      <Compile Include="Assets\Scripts\DestroyerScript.cs" />
      <Compile Include="Assets\Scripts\DestroyInTime.cs" />
@@ -61,11 +63,11 @@
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\HudScript.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
-     <Compile Include="Assets\Scripts\MapPlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PowerUp.cs" />
      <Compile Include="Assets\Scripts\PowerUpScript.cs" />
      <Compile Include="Assets\Scripts\SpawnScript.cs" />
      <Compile Include="Assets\Scripts\SpikeSquiggle.cs" />
+     <Compile Include="Assets\Scripts\TopDownPlayerMovement.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -2768,7 +2768,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.30992776, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2779,7 +2779,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.6198553, y: 1}
   m_EdgeRadius: 0
 --- !u!23 &980023683
 MeshRenderer:
@@ -3226,7 +3226,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.08326124, g: 0.25104526, b: 0.5147059, a: 0}
+  m_BackGroundColor: {r: 0, g: 0.3831699, b: 0.9852941, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0

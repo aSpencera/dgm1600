@@ -6,8 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_Scenes/DeadScreen.unity
+    guid: 3e2f1d872d94f514a9941f610d358d00
+  - enabled: 1
+    path: Assets/_Scenes/PapHapMap.unity
+    guid: 8f35b899c75766a4c9f7b0f1db7d0bcc
+  - enabled: 1
+    path: Assets/_Scenes/Map_QuickSand.unity
+    guid: ad790c5821c1cba4798fe09e7c2a6596
+  - enabled: 1
+    path: Assets/_Scenes/Map_Davinci.unity
+    guid: bf1e018978f2d154abaf092be1fb766a
+  - enabled: 1
+    path: Assets/_Scenes/Map_Catcus.unity
+    guid: bded730908d810149983a0e0262ed1db
+  - enabled: 1
+    path: Assets/_Scenes/Map_Mountain.unity
+    guid: 527eaeea667a6014bbecffd8730c01b9
+  - enabled: 1
     path: Assets/_Scenes/Map_SpaceFlood.unity
     guid: b5ccaed47dacd244482581d8d5e429a7
   - enabled: 1
-    path: Assets/_Scenes/DeadScreen.unity
-    guid: 3e2f1d872d94f514a9941f610d358d00
+    path: Assets/_Scenes/Map_SpinningWorld.unity
+    guid: d41b2bc8c95a4f94695f0b2c2999e9dd

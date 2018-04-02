@@ -8,7 +8,7 @@ public class SpikeSquiggle : MonoBehaviour {
 	{
 		if (Other.tag == "Player")
 		{
-			Application.LoadLevel (1);
+			Application.LoadLevel (0);
 			return;
 		}
 
