@@ -5,27 +5,21 @@ using UnityEngine.UI;
 
 public class CoinCollector : MonoBehaviour {
 
-    public Text countText;
-    public int coinNum;
+    public Color colorTint;
+    public int value;
+    private Manager myManager;
 
-    void Start()
+    private void Start()
     {
-        coinNum = 0;
-        countText.text = "Count: " + coinNum.ToString();
+        myManager = FindObjectOfType<Manager>().GetComponent<Manager>();
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+
+    private void OnTriggerEnter2D(Collider2D colliider)
     {
-        if (other.gameObject.tag == "Blupee")
-        {
-            other.gameObject.SetActive(false);
-            coinNum++;
-            countText.text = "Count: " + coinNum.ToString();
-        }
+        myManager.IncrementScore(value);
+        Destroy(gameObject);
     }
 
-    void Update()
-    {
-        countText.text = "Count: " + coinNum;
-    }
+   
 }
