@@ -24,8 +24,20 @@ EditorBuildSettings:
     path: Assets/_Scenes/Map_Mountain.unity
     guid: 527eaeea667a6014bbecffd8730c01b9
   - enabled: 1
-    path: Assets/_Scenes/Map_SpaceFlood.unity
-    guid: b5ccaed47dacd244482581d8d5e429a7
+    path: Assets/_Scenes/Map_JumpingTrees.unity
+    guid: 825792feb6f7bf34397a3f11ab2167f4
+  - enabled: 1
+    path: Assets/_Scenes/Map_WaterWorld.unity
+    guid: 03739b8b35d960f43a5e9e4fd2d6f376
+  - enabled: 1
+    path: Assets/_Scenes/Map_Script.unity
+    guid: 18a0d2f9aafb8af49a2494563ce973d0
+  - enabled: 1
+    path: Assets/_Scenes/Map_MetiSpin.unity
+    guid: 4e194bd764343bd48af0f01a0302aebd
   - enabled: 1
     path: Assets/_Scenes/Map_SpinningWorld.unity
     guid: d41b2bc8c95a4f94695f0b2c2999e9dd
+  - enabled: 1
+    path: Assets/_Scenes/Map_SpaceFlood.unity
+    guid: b5ccaed47dacd244482581d8d5e429a7

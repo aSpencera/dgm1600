@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/Map_Davinci.unity
+- path: Assets/_Scenes/PapHapMap.unity
   isLoaded: 1
   isActive: 1
