@@ -15,6 +15,7 @@ public class DosPlayerMovement : MonoBehaviour
     private SpriteRenderer rend;
     public float jump;
     public bool isGrounded;
+    //public bool flippable;            Make it so I can control whether the player flips or not when moving 
 
 
 

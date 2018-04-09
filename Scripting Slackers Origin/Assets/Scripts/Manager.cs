@@ -2,13 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour {
 
 
     public Text scoreBoard;
     private int score;
-	public int badies;
+
+    public Text badiesBooted;
+	private int badies;
+
 
 
     public void IncrementScore(int value)
@@ -16,9 +20,16 @@ public class Manager : MonoBehaviour {
         score += value;
         scoreBoard.text = score.ToString();
 
-		badies += value;
-		scoreBoard.text = badies.ToString();
+		score += value;
+		scoreBoard.text = score.ToString();
     }
 
-	
+    public void IncrementBadies(int value)
+    {
+        badies += value;
+        scoreBoard.text = badies.ToString();
+
+        badies += value;
+        scoreBoard.text = badies.ToString();
+    }
 }

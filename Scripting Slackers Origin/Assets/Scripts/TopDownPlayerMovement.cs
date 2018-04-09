@@ -11,7 +11,6 @@ public class TopDownPlayerMovement : MonoBehaviour
 
     private Rigidbody rigid;
     public float speed;  
-    private SpriteRenderer rend;
     public float jump;
     public bool isGrounded;
 
@@ -20,7 +19,6 @@ public class TopDownPlayerMovement : MonoBehaviour
     void Start()
     {
         rigid = GetComponent<Rigidbody>();
-        rend = GetComponent<SpriteRenderer>();
 
     }
 
