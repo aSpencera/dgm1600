@@ -13,6 +13,9 @@ public class Manager : MonoBehaviour {
     public Text badiesBooted;
 	private int badies;
 
+	public Text tickTock;
+	float playerScore = 0;
+
 
 
     public void IncrementScore(int value)
@@ -32,4 +35,18 @@ public class Manager : MonoBehaviour {
         badies += value;
         scoreBoard.text = badies.ToString();
     }
+
+
+	void update ()
+	{
+		playerScore += Time.deltaTime;
+	}
+
+	public void IncrementTickTock(int amount)
+	{
+		playerScore += amount * 100;
+		scoreBoard.text = tickTock.ToString ();
+
+	}
+		
 }

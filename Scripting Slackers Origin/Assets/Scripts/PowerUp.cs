@@ -44,7 +44,7 @@ public class PowerUp : MonoBehaviour {
             case Power.DoubleCoin:
                 break;
             case Power.Health:
-                collider.GetComponent<Health>().IncrementHealth(5);
+//                collider.GetComponent<Health>().IncrementHealth(5);
                 break;
         }
         Destroy(gameObject);

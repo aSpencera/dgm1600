@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 
@@ -16,7 +17,8 @@ public class DosPlayerMovement : MonoBehaviour
     public float jump;
     public bool isGrounded;
     //public bool flippable;            Make it so I can control whether the player flips or not when moving 
-
+	public int heath;
+	public float maxHealth = 5f;
 
 
 
@@ -26,8 +28,7 @@ public class DosPlayerMovement : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         rend = GetComponent<SpriteRenderer>();
-
-    }
+	}
 
     // Update is called once per frame
     void Update()
@@ -90,7 +91,6 @@ public class DosPlayerMovement : MonoBehaviour
             isGrounded = false;
         }
     }
-
 
 
 

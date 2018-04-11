@@ -52,7 +52,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ArmRotation.cs" />
-     <Compile Include="Assets\Scripts\BossDeath.cs" />
      <Compile Include="Assets\Scripts\BulletFire.cs" />
      <Compile Include="Assets\Scripts\CameraRunnerScriptY.cs" />
      <Compile Include="Assets\Scripts\CameraRunnerScriptZ.cs" />
@@ -60,7 +59,7 @@
      <Compile Include="Assets\Scripts\DestroyerScript.cs" />
      <Compile Include="Assets\Scripts\DestroyInTime.cs" />
      <Compile Include="Assets\Scripts\DosPlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\Health.cs" />
+     <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\Manager.cs" />
      <Compile Include="Assets\Scripts\PowerUp.cs" />
