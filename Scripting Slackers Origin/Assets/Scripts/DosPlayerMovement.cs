@@ -17,7 +17,7 @@ public class DosPlayerMovement : MonoBehaviour
     public float jump;
     public bool isGrounded;
     //public bool flippable;            Make it so I can control whether the player flips or not when moving 
-	public int heath;
+	public int health;
 	public float maxHealth = 5f;
 
 

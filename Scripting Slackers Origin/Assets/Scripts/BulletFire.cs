@@ -28,7 +28,7 @@ public class BulletFire : MonoBehaviour {
 
 	void Fire ()
 	{
-		if (Input.GetButton ("Fire1"))
+		if (Input.GetButtonDown ("Fire1"))
 		{
 			var firedBullet = Instantiate (bullet, transform.position, transform.rotation);
 			firedBullet.AddForce (transform.up * bulletSpeed);

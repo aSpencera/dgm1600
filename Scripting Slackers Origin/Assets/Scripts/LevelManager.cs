@@ -8,11 +8,13 @@ public class LevelManager : MonoBehaviour {
 
     //public Manager manager;
 
-  
-    public void levelLoader (string sceneName)
-	{
-		Application.LoadLevel (sceneName);
-	}
+
+    public void levelLoader(string sceneName)
+    {
+        Application.LoadLevel(sceneName);
+    }
+
+}
 
 
     //private void Start()
@@ -31,4 +33,3 @@ public class LevelManager : MonoBehaviour {
 
 
 
-}

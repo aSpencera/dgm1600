@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour {
 
+    private static Manager instance = null;
 
     public Text scoreBoard;
     private int score;
@@ -14,8 +15,24 @@ public class Manager : MonoBehaviour {
 	private int badies;
 
 	public Text tickTock;
-	float playerScore = 0;
+	public float timer;
+    private float timerSave;
 
+
+    public void Awake()
+    {
+        if(instance == null)
+        {
+            instance = this.gameObject.GetComponent<Manager>();
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+        DontDestroyOnLoad(gameObject);
+
+        timerSave = timer;
+    }
 
 
     public void IncrementScore(int value)
@@ -36,17 +53,15 @@ public class Manager : MonoBehaviour {
         scoreBoard.text = badies.ToString();
     }
 
+    private void Update()
+    {
+        IncrementTickTock();
+    }
 
-	void update ()
-	{
-		playerScore += Time.deltaTime;
-	}
-
-	public void IncrementTickTock(int amount)
-	{
-		playerScore += amount * 100;
-		scoreBoard.text = tickTock.ToString ();
-
-	}
+    public void IncrementTickTock()
+    {
+        timer -= Time.deltaTime;
+        tickTock.text = ((int)timer).ToString();
+    }	
 		
 }
