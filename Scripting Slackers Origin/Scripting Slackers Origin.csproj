@@ -87,7 +87,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\AlienPain.cs" />
     <Compile Include="Assets\Scripts\ArmRotation.cs" />
     <Compile Include="Assets\Scripts\BulletFire.cs" />
     <Compile Include="Assets\Scripts\CameraRunnerScriptY.cs" />

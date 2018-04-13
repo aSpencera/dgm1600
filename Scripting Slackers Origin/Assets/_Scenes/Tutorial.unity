@@ -623,6 +623,12 @@ Transform:
   m_PrefabParentObject: {fileID: 4517071263384996, guid: d94505273e2ab79408a957e6b8c63416,
     type: 2}
   m_PrefabInternal: {fileID: 1976783968}
+--- !u!114 &437054413 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114115061600086082, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 674369902}
+  m_Script: {fileID: -113659843, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &523019931
 GameObject:
   m_ObjectHideFlags: 0
@@ -2093,6 +2099,10 @@ Prefab:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1650319993201894, guid: c1ef002e1e47dde4fab5260aeb1c550c, type: 2}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c1ef002e1e47dde4fab5260aeb1c550c, type: 2}
   m_IsPrefabParent: 0
@@ -2168,6 +2178,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114486763642698414, guid: d94505273e2ab79408a957e6b8c63416,
+        type: 2}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 437054413}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d94505273e2ab79408a957e6b8c63416, type: 2}
   m_IsPrefabParent: 0
@@ -2298,9 +2313,10 @@ GameObject:
   - component: {fileID: 2096269217}
   - component: {fileID: 2096269216}
   - component: {fileID: 2096269215}
+  - component: {fileID: 2096269218}
   m_Layer: 0
   m_Name: Bird Open
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2377,6 +2393,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &2096269218
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2096269214}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0000000011630646, y: -0.009756495}
+  m_Size: {x: 0.31000015, y: 0.14738904}
+  m_Direction: 1
 --- !u!1001 &2104847065
 Prefab:
   m_ObjectHideFlags: 0

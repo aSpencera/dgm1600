@@ -30,7 +30,7 @@ public class DosPlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         rend = GetComponent<SpriteRenderer>();
 		health = maxHealth;
-		healthBar.value = calculateHealth();
+		healthBar.value = health;
 	}
 
     // Update is called once per frame
@@ -90,7 +90,7 @@ public class DosPlayerMovement : MonoBehaviour
 		if (collision.transform.tag == "Enemy") 
 		{
 			health -= 2;
-			Destroy (this.gameObject);
+            healthBar.value = health;
 		}
     }
 
@@ -102,12 +102,7 @@ public class DosPlayerMovement : MonoBehaviour
         }
     }
 		
-	float calculateHealth()
-	{
-		return health / maxHealth;
-	}
-
-
+	
 
 }
 
