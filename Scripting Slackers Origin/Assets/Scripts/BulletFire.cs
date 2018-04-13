@@ -6,7 +6,7 @@ public class BulletFire : MonoBehaviour {
 
 	public int rotationOffset = -90;
 	public Rigidbody2D bullet;
-	public float bulletSpeed = 500f;
+	public float bulletSpeed = 300f;
 
 
 	
@@ -35,6 +35,12 @@ public class BulletFire : MonoBehaviour {
 		}
 	}
 
-
+	void OnCollisionEnter2D(Collision2D collision)
+	{
+		if (collision.transform.tag == "Enemy")
+		{
+			Destroy (this.gameObject);
+		}
+	} 
 
 }

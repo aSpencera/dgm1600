@@ -1,24 +1,13 @@
 fileFormatVersion: 2
-guid: 0170c866960a3604dafa9ce4548657f6
-timeCreated: 1523290324
-licenseType: Pro
+guid: 7354da91dc48ba2478712aa534a06aa3
+timeCreated: 1523483403
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: GHealthBars_0
-    21300002: GHealthBars_1
-    21300004: GHealthBars_2
-    21300006: GHealthBars_3
-    21300008: GHealthBars_4
-    21300010: HealthBars_5
-    21300012: HealthBars_6
-    21300014: HealthBars_7
-    21300016: HealthBars_8
-    21300018: HealthBars_9
-    21300020: HealthBars_10
-    21300022: HealthBars_11
-    21300024: HealthBars_12
-    21300026: HealthBars_13
-    21300028: HealthBars_14
+    21300000: GreenInside
+    21300002: GreenOutline
+    21300004: BossInside
+    21300006: BossOutline
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -86,99 +75,25 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: iPhone
-    maxTextureSize: 8192
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-  - buildTarget: tvOS
-    maxTextureSize: 8192
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-  - buildTarget: Android
-    maxTextureSize: 8192
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-  - buildTarget: WebGL
-    maxTextureSize: 8192
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GHealthBars_0
+      name: GreenInside
       rect:
         serializedVersion: 2
-        x: 20
-        y: 282
-        width: 106
-        height: 14
+        x: 22
+        y: 284
+        width: 102
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 2, z: 10, w: 2}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GHealthBars_1
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 263
-        width: 106
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: GHealthBars_2
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 245
-        width: 106
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: GHealthBars_3
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 226
-        width: 106
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: GHealthBars_4
+      name: GreenOutline
       rect:
         serializedVersion: 2
         x: 20
@@ -186,139 +101,27 @@ TextureImporter:
         width: 106
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 2, z: 12, w: 2}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: HealthBars_5
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 170
-        width: 281
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: HealthBars_6
+      name: BossInside
       rect:
         serializedVersion: 2
         x: 8
-        y: 155
-        width: 281
-        height: 10
+        y: 171
+        width: 279
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 2, z: 2, w: 2}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: HealthBars_7
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 139
-        width: 281
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: HealthBars_8
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 122
-        width: 281
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: HealthBars_9
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 104
-        width: 281
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: HealthBars_10
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 84
-        width: 281
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: HealthBars_11
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 64
-        width: 281
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: HealthBars_12
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 47
-        width: 281
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: HealthBars_13
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 28
-        width: 281
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: HealthBars_14
+      name: BossOutline
       rect:
         serializedVersion: 2
         x: 8
@@ -326,8 +129,8 @@ TextureImporter:
         width: 281
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 3, z: 7, w: 3}
       outline: []
       physicsShape: []
       tessellationDetail: 0

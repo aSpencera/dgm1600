@@ -8,8 +8,8 @@ public class Manager : MonoBehaviour {
 
     private static Manager instance = null;
 
-    public Text scoreBoard;
-    private int score;
+    public Text Money;
+    private int money;
 
     public Text badiesBooted;
 	private int badies;
@@ -17,6 +17,7 @@ public class Manager : MonoBehaviour {
 	public Text tickTock;
 	public float timer;
     private float timerSave;
+
 
 
     public void Awake()
@@ -32,25 +33,21 @@ public class Manager : MonoBehaviour {
         DontDestroyOnLoad(gameObject);
 
         timerSave = timer;
+
     }
 
 
     public void IncrementScore(int value)
     {
-        score += value;
-        scoreBoard.text = score.ToString();
+        money += value;
+        Money.text = money.ToString();
 
-		score += value;
-		scoreBoard.text = score.ToString();
-    }
+	}
 
     public void IncrementBadies(int value)
     {
         badies += value;
-        scoreBoard.text = badies.ToString();
-
-        badies += value;
-        scoreBoard.text = badies.ToString();
+        badiesBooted.text = badies.ToString();
     }
 
     private void Update()
@@ -64,4 +61,6 @@ public class Manager : MonoBehaviour {
         tickTock.text = ((int)timer).ToString();
     }	
 		
+
+
 }

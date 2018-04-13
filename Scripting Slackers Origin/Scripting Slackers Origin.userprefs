@@ -6,17 +6,16 @@
       <File FileName="Assets\Scripts\SpawnScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ArmRotation.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\DestroyInTime.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\BulletFire.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BulletFire.cs" Line="9" Column="32" />
       <File FileName="Assets\Scripts\CameraRunnerScriptY.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LevelManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SpikeSquiggle.cs" Line="12" Column="1" />
+      <File FileName="Assets\Scripts\SpikeSquiggle.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\CameraRunnerScriptZ.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\TopDownPlayerMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Manager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CoinCollector.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PowerUp.cs" Line="47" Column="3" />
-      <File FileName="Assets\Scripts\HealthBar.cs" Line="20" Column="1" />
-      <File FileName="Assets\Scripts\DosPlayerMovement.cs" Line="20" Column="12" />
+      <File FileName="Assets\Scripts\Manager.cs" Line="36" Column="3" />
+      <File FileName="Assets\Scripts\CoinCollector.cs" Line="26" Column="1" />
+      <File FileName="Assets\Scripts\PowerUp.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DosPlayerMovement.cs" Line="20" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

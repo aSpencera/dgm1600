@@ -17,8 +17,9 @@ public class DosPlayerMovement : MonoBehaviour
     public float jump;
     public bool isGrounded;
     //public bool flippable;            Make it so I can control whether the player flips or not when moving 
-	public int health;
-	public float maxHealth = 5f;
+	public float health;
+	public Slider healthBar;
+	public float maxHealth = 10f;
 
 
 
@@ -28,6 +29,8 @@ public class DosPlayerMovement : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         rend = GetComponent<SpriteRenderer>();
+		health = maxHealth;
+		healthBar.value = calculateHealth();
 	}
 
     // Update is called once per frame
@@ -81,7 +84,14 @@ public class DosPlayerMovement : MonoBehaviour
         {
 
             isGrounded = true;
+
         }
+
+		if (collision.transform.tag == "Enemy") 
+		{
+			health -= 2;
+			Destroy (this.gameObject);
+		}
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -91,10 +101,13 @@ public class DosPlayerMovement : MonoBehaviour
             isGrounded = false;
         }
     }
-
-
-
+		
+	float calculateHealth()
+	{
+		return health / maxHealth;
+	}
 
 
 
 }
+
