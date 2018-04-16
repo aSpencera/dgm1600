@@ -118,10 +118,9 @@ GameObject:
   - component: {fileID: 14323895}
   - component: {fileID: 14323898}
   - component: {fileID: 14323897}
-  - component: {fileID: 14323896}
   m_Layer: 0
   m_Name: CatcusSmall (19)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -139,17 +138,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &14323896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 14323894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &14323897
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -159,7 +147,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -239,10 +227,9 @@ GameObject:
   - component: {fileID: 25357994}
   - component: {fileID: 25357997}
   - component: {fileID: 25357996}
-  - component: {fileID: 25357995}
   m_Layer: 0
   m_Name: CatcusTall (38)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -260,17 +247,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &25357995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 25357993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &25357996
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -280,7 +256,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -370,25 +346,13 @@ GameObject:
   - component: {fileID: 39462103}
   - component: {fileID: 39462102}
   - component: {fileID: 39462101}
-  - component: {fileID: 39462100}
   m_Layer: 0
   m_Name: CatcusTall (2)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &39462100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 39462099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &39462101
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -398,7 +362,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -501,25 +465,13 @@ GameObject:
   - component: {fileID: 40734305}
   - component: {fileID: 40734304}
   - component: {fileID: 40734303}
-  - component: {fileID: 40734302}
   m_Layer: 0
   m_Name: CatcusSmall (6)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &40734302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 40734301}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &40734303
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -529,7 +481,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -622,25 +574,13 @@ GameObject:
   - component: {fileID: 58675722}
   - component: {fileID: 58675721}
   - component: {fileID: 58675720}
-  - component: {fileID: 58675719}
   m_Layer: 0
   m_Name: CatcusSmall (3)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &58675719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 58675718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &58675720
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -650,7 +590,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -743,10 +683,9 @@ GameObject:
   - component: {fileID: 68813000}
   - component: {fileID: 68813003}
   - component: {fileID: 68813002}
-  - component: {fileID: 68813001}
   m_Layer: 0
   m_Name: CatcusTall (55)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -764,17 +703,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 109
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &68813001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 68812999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &68813002
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -784,7 +712,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -874,10 +802,9 @@ GameObject:
   - component: {fileID: 74333288}
   - component: {fileID: 74333291}
   - component: {fileID: 74333290}
-  - component: {fileID: 74333289}
   m_Layer: 0
   m_Name: CatcusTall (46)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -895,17 +822,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 92
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &74333289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 74333287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &74333290
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -915,7 +831,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1005,10 +921,9 @@ GameObject:
   - component: {fileID: 125560287}
   - component: {fileID: 125560290}
   - component: {fileID: 125560289}
-  - component: {fileID: 125560288}
   m_Layer: 0
   m_Name: CatcusTall (23)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1026,17 +941,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &125560288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 125560286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &125560289
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1046,7 +950,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1136,10 +1040,9 @@ GameObject:
   - component: {fileID: 127395225}
   - component: {fileID: 127395228}
   - component: {fileID: 127395227}
-  - component: {fileID: 127395226}
   m_Layer: 0
   m_Name: CatcusTall (10)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1157,17 +1060,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &127395226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 127395224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &127395227
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1177,7 +1069,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1267,10 +1159,9 @@ GameObject:
   - component: {fileID: 165648060}
   - component: {fileID: 165648063}
   - component: {fileID: 165648062}
-  - component: {fileID: 165648061}
   m_Layer: 0
   m_Name: CatcusTall (34)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1288,17 +1179,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &165648061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 165648059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &165648062
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1308,7 +1188,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1398,10 +1278,9 @@ GameObject:
   - component: {fileID: 167464137}
   - component: {fileID: 167464140}
   - component: {fileID: 167464139}
-  - component: {fileID: 167464138}
   m_Layer: 0
   m_Name: CatcusSmall (16)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1419,17 +1298,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &167464138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 167464136}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &167464139
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1439,7 +1307,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1519,10 +1387,9 @@ GameObject:
   - component: {fileID: 169135451}
   - component: {fileID: 169135454}
   - component: {fileID: 169135453}
-  - component: {fileID: 169135452}
   m_Layer: 0
   m_Name: CatcusTall (27)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1540,17 +1407,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &169135452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 169135450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &169135453
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1560,7 +1416,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1650,10 +1506,9 @@ GameObject:
   - component: {fileID: 169606098}
   - component: {fileID: 169606101}
   - component: {fileID: 169606100}
-  - component: {fileID: 169606099}
   m_Layer: 0
   m_Name: CatcusTall (7)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1671,17 +1526,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &169606099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 169606097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &169606100
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1691,7 +1535,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1781,10 +1625,9 @@ GameObject:
   - component: {fileID: 172278572}
   - component: {fileID: 172278575}
   - component: {fileID: 172278574}
-  - component: {fileID: 172278573}
   m_Layer: 0
   m_Name: CatcusSmall (42)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1802,17 +1645,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &172278573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 172278571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &172278574
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1822,7 +1654,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1907,10 +1739,9 @@ GameObject:
   - component: {fileID: 207648627}
   - component: {fileID: 207648630}
   - component: {fileID: 207648629}
-  - component: {fileID: 207648628}
   m_Layer: 0
   m_Name: CatcusSmall (41)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1928,17 +1759,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &207648628
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 207648626}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &207648629
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1948,7 +1768,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2028,10 +1848,9 @@ GameObject:
   - component: {fileID: 210650924}
   - component: {fileID: 210650927}
   - component: {fileID: 210650926}
-  - component: {fileID: 210650925}
   m_Layer: 0
   m_Name: CatcusTall (17)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2049,17 +1868,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &210650925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 210650923}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &210650926
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2069,7 +1877,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2246,6 +2054,16 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224843361982117462, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224843361982117462, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 000307de7bf7f6d489656744b7d33d46, type: 2}
   m_IsPrefabParent: 0
@@ -2259,10 +2077,9 @@ GameObject:
   - component: {fileID: 240566797}
   - component: {fileID: 240566800}
   - component: {fileID: 240566799}
-  - component: {fileID: 240566798}
   m_Layer: 0
   m_Name: CatcusTall (37)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2280,17 +2097,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &240566798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 240566796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &240566799
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2300,7 +2106,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2507,10 +2313,9 @@ GameObject:
   - component: {fileID: 275050763}
   - component: {fileID: 275050766}
   - component: {fileID: 275050765}
-  - component: {fileID: 275050764}
   m_Layer: 0
   m_Name: CatcusSmall (27)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2528,17 +2333,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &275050764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 275050762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &275050765
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2548,7 +2342,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2628,10 +2422,9 @@ GameObject:
   - component: {fileID: 282506796}
   - component: {fileID: 282506799}
   - component: {fileID: 282506798}
-  - component: {fileID: 282506797}
   m_Layer: 0
   m_Name: CatcusSmall (40)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2649,17 +2442,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &282506797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 282506795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &282506798
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2669,7 +2451,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2749,25 +2531,13 @@ GameObject:
   - component: {fileID: 305467293}
   - component: {fileID: 305467292}
   - component: {fileID: 305467291}
-  - component: {fileID: 305467290}
   m_Layer: 0
   m_Name: CatcusSmall (8)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &305467290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 305467289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &305467291
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2777,7 +2547,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2967,10 +2737,9 @@ GameObject:
   - component: {fileID: 331725482}
   - component: {fileID: 331725485}
   - component: {fileID: 331725484}
-  - component: {fileID: 331725483}
   m_Layer: 0
   m_Name: CatcusTall (51)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2988,17 +2757,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 105
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &331725483
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 331725481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &331725484
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3008,7 +2766,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3098,10 +2856,9 @@ GameObject:
   - component: {fileID: 341832591}
   - component: {fileID: 341832594}
   - component: {fileID: 341832593}
-  - component: {fileID: 341832592}
   m_Layer: 0
   m_Name: CatcusSmall (46)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3119,17 +2876,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &341832592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 341832590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &341832593
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3139,7 +2885,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3219,10 +2965,9 @@ GameObject:
   - component: {fileID: 352509701}
   - component: {fileID: 352509704}
   - component: {fileID: 352509703}
-  - component: {fileID: 352509702}
   m_Layer: 0
   m_Name: CatcusTall (6)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3240,17 +2985,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &352509702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 352509700}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &352509703
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3260,7 +2994,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3400,10 +3134,9 @@ GameObject:
   - component: {fileID: 357327950}
   - component: {fileID: 357327953}
   - component: {fileID: 357327952}
-  - component: {fileID: 357327951}
   m_Layer: 0
   m_Name: CatcusSmall (22)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3421,17 +3154,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &357327951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 357327949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &357327952
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3441,7 +3163,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3521,10 +3243,9 @@ GameObject:
   - component: {fileID: 372261674}
   - component: {fileID: 372261677}
   - component: {fileID: 372261676}
-  - component: {fileID: 372261675}
   m_Layer: 0
   m_Name: CatcusTall (28)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3542,17 +3263,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &372261675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 372261673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &372261676
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3562,7 +3272,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3698,10 +3408,9 @@ GameObject:
   - component: {fileID: 416054765}
   - component: {fileID: 416054768}
   - component: {fileID: 416054767}
-  - component: {fileID: 416054766}
   m_Layer: 0
   m_Name: CatcusTall (53)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3719,17 +3428,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 107
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &416054766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 416054764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &416054767
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3739,7 +3437,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3829,10 +3527,9 @@ GameObject:
   - component: {fileID: 418354348}
   - component: {fileID: 418354351}
   - component: {fileID: 418354350}
-  - component: {fileID: 418354349}
   m_Layer: 0
   m_Name: CatcusSmall (26)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3850,17 +3547,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &418354349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 418354347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &418354350
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3870,7 +3556,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4047,10 +3733,9 @@ GameObject:
   - component: {fileID: 451347207}
   - component: {fileID: 451347210}
   - component: {fileID: 451347209}
-  - component: {fileID: 451347208}
   m_Layer: 0
   m_Name: CatcusSmall (28)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4068,17 +3753,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &451347208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 451347206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &451347209
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4088,7 +3762,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4168,10 +3842,9 @@ GameObject:
   - component: {fileID: 465365373}
   - component: {fileID: 465365376}
   - component: {fileID: 465365375}
-  - component: {fileID: 465365374}
   m_Layer: 0
   m_Name: CatcusSmall (29)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4189,17 +3862,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &465365374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 465365372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &465365375
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4209,7 +3871,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4294,10 +3956,9 @@ GameObject:
   - component: {fileID: 503588259}
   - component: {fileID: 503588262}
   - component: {fileID: 503588261}
-  - component: {fileID: 503588260}
   m_Layer: 0
   m_Name: CatcusSmall (36)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4315,17 +3976,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &503588260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 503588258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &503588261
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4335,7 +3985,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4415,10 +4065,9 @@ GameObject:
   - component: {fileID: 507397506}
   - component: {fileID: 507397509}
   - component: {fileID: 507397508}
-  - component: {fileID: 507397507}
   m_Layer: 0
   m_Name: CatcusTall (9)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4436,17 +4085,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &507397507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 507397505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &507397508
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4456,7 +4094,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4781,10 +4419,9 @@ GameObject:
   - component: {fileID: 532595780}
   - component: {fileID: 532595783}
   - component: {fileID: 532595782}
-  - component: {fileID: 532595781}
   m_Layer: 0
   m_Name: CatcusTall (35)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4802,17 +4439,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &532595781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 532595779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &532595782
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4822,7 +4448,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4912,10 +4538,9 @@ GameObject:
   - component: {fileID: 548808963}
   - component: {fileID: 548808966}
   - component: {fileID: 548808965}
-  - component: {fileID: 548808964}
   m_Layer: 0
   m_Name: CatcusSmall (44)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4933,17 +4558,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &548808964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 548808962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &548808965
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4953,7 +4567,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5033,10 +4647,9 @@ GameObject:
   - component: {fileID: 554588494}
   - component: {fileID: 554588497}
   - component: {fileID: 554588496}
-  - component: {fileID: 554588495}
   m_Layer: 0
   m_Name: CatcusTall (14)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5054,17 +4667,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &554588495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 554588493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &554588496
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5074,7 +4676,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5164,10 +4766,9 @@ GameObject:
   - component: {fileID: 560278730}
   - component: {fileID: 560278733}
   - component: {fileID: 560278732}
-  - component: {fileID: 560278731}
   m_Layer: 0
   m_Name: CatcusSmall (30)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5185,17 +4786,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &560278731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 560278729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &560278732
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5205,7 +4795,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5275,6 +4865,12 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &577294258 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114115061600086082, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 221224143}
+  m_Script: {fileID: -113659843, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &581465210
 GameObject:
   m_ObjectHideFlags: 0
@@ -5302,10 +4898,10 @@ Transform:
   m_Children:
   - {fileID: 2117923474}
   - {fileID: 1256317507}
-  - {fileID: 483705937}
   - {fileID: 2080493413}
-  - {fileID: 1402001831}
+  - {fileID: 483705937}
   - {fileID: 863426142}
+  - {fileID: 1402001831}
   - {fileID: 982178837}
   - {fileID: 1410010631}
   m_Father: {fileID: 0}
@@ -5363,10 +4959,9 @@ GameObject:
   - component: {fileID: 604408352}
   - component: {fileID: 604408355}
   - component: {fileID: 604408354}
-  - component: {fileID: 604408353}
   m_Layer: 0
   m_Name: CatcusSmall (37)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5384,17 +4979,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &604408353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 604408351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &604408354
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5404,7 +4988,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5581,10 +5165,9 @@ GameObject:
   - component: {fileID: 626379984}
   - component: {fileID: 626379987}
   - component: {fileID: 626379986}
-  - component: {fileID: 626379985}
   m_Layer: 0
   m_Name: CatcusSmall (53)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5602,17 +5185,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 104
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &626379985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 626379983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &626379986
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5622,7 +5194,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5702,10 +5274,9 @@ GameObject:
   - component: {fileID: 670550268}
   - component: {fileID: 670550271}
   - component: {fileID: 670550270}
-  - component: {fileID: 670550269}
   m_Layer: 0
   m_Name: CatcusTall (13)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5723,17 +5294,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &670550269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 670550267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &670550270
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5743,7 +5303,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5930,10 +5490,9 @@ GameObject:
   - component: {fileID: 694592433}
   - component: {fileID: 694592436}
   - component: {fileID: 694592435}
-  - component: {fileID: 694592434}
   m_Layer: 0
   m_Name: CatcusTall (8)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5951,17 +5510,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &694592434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 694592432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &694592435
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5971,7 +5519,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6061,10 +5609,9 @@ GameObject:
   - component: {fileID: 722754052}
   - component: {fileID: 722754055}
   - component: {fileID: 722754054}
-  - component: {fileID: 722754053}
   m_Layer: 0
   m_Name: CatcusTall (36)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6082,17 +5629,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &722754053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 722754051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &722754054
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6102,7 +5638,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6289,10 +5825,9 @@ GameObject:
   - component: {fileID: 732533741}
   - component: {fileID: 732533744}
   - component: {fileID: 732533743}
-  - component: {fileID: 732533742}
   m_Layer: 0
   m_Name: CatcusTall (24)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6310,17 +5845,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &732533742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 732533740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &732533743
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6330,7 +5854,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6420,10 +5944,9 @@ GameObject:
   - component: {fileID: 741905109}
   - component: {fileID: 741905112}
   - component: {fileID: 741905111}
-  - component: {fileID: 741905110}
   m_Layer: 0
   m_Name: CatcusSmall (47)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6441,17 +5964,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &741905110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 741905108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &741905111
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6461,7 +5973,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6541,10 +6053,9 @@ GameObject:
   - component: {fileID: 762523064}
   - component: {fileID: 762523067}
   - component: {fileID: 762523066}
-  - component: {fileID: 762523065}
   m_Layer: 0
   m_Name: CatcusSmall (39)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6562,17 +6073,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &762523065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 762523063}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &762523066
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6582,7 +6082,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6667,10 +6167,9 @@ GameObject:
   - component: {fileID: 796394731}
   - component: {fileID: 796394734}
   - component: {fileID: 796394733}
-  - component: {fileID: 796394732}
   m_Layer: 0
   m_Name: CatcusTall (22)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6688,17 +6187,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &796394732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 796394730}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &796394733
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6708,7 +6196,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6798,10 +6286,9 @@ GameObject:
   - component: {fileID: 802659643}
   - component: {fileID: 802659646}
   - component: {fileID: 802659645}
-  - component: {fileID: 802659644}
   m_Layer: 0
   m_Name: CatcusSmall (18)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6819,17 +6306,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &802659644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 802659642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &802659645
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6839,7 +6315,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6919,25 +6395,13 @@ GameObject:
   - component: {fileID: 814723649}
   - component: {fileID: 814723648}
   - component: {fileID: 814723647}
-  - component: {fileID: 814723646}
   m_Layer: 0
   m_Name: CatcusSmall (11)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &814723646
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 814723645}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &814723647
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6947,7 +6411,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7030,6 +6494,12 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &832032513 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114078135142725212, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 221224143}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &832660270
 GameObject:
   m_ObjectHideFlags: 0
@@ -7040,10 +6510,9 @@ GameObject:
   - component: {fileID: 832660271}
   - component: {fileID: 832660274}
   - component: {fileID: 832660273}
-  - component: {fileID: 832660272}
   m_Layer: 0
   m_Name: CatcusTall (33)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7061,17 +6530,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &832660272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 832660270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &832660273
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7081,7 +6539,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7171,25 +6629,13 @@ GameObject:
   - component: {fileID: 845891142}
   - component: {fileID: 845891141}
   - component: {fileID: 845891140}
-  - component: {fileID: 845891139}
   m_Layer: 0
   m_Name: CatcusTall (1)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &845891139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 845891138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &845891140
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7199,7 +6645,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7302,10 +6748,9 @@ GameObject:
   - component: {fileID: 858829517}
   - component: {fileID: 858829520}
   - component: {fileID: 858829519}
-  - component: {fileID: 858829518}
   m_Layer: 0
   m_Name: CatcusTall (54)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7323,17 +6768,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 108
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &858829518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 858829516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &858829519
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7343,7 +6777,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7438,10 +6872,9 @@ GameObject:
   - component: {fileID: 893870848}
   - component: {fileID: 893870851}
   - component: {fileID: 893870850}
-  - component: {fileID: 893870849}
   m_Layer: 0
   m_Name: CatcusTall (21)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7459,17 +6892,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &893870849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 893870847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &893870850
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7479,7 +6901,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7569,10 +6991,9 @@ GameObject:
   - component: {fileID: 939527143}
   - component: {fileID: 939527146}
   - component: {fileID: 939527145}
-  - component: {fileID: 939527144}
   m_Layer: 0
   m_Name: CatcusTall (47)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7590,17 +7011,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &939527144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 939527142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &939527145
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7610,7 +7020,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7700,10 +7110,9 @@ GameObject:
   - component: {fileID: 946664284}
   - component: {fileID: 946664287}
   - component: {fileID: 946664286}
-  - component: {fileID: 946664285}
   m_Layer: 0
   m_Name: CatcusTall (32)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7721,17 +7130,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &946664285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 946664283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &946664286
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7741,7 +7139,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8147,10 +7545,9 @@ GameObject:
   - component: {fileID: 1011886360}
   - component: {fileID: 1011886363}
   - component: {fileID: 1011886362}
-  - component: {fileID: 1011886361}
   m_Layer: 0
   m_Name: CatcusSmall (43)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8168,17 +7565,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1011886361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1011886359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1011886362
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8188,7 +7574,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8268,10 +7654,9 @@ GameObject:
   - component: {fileID: 1019583631}
   - component: {fileID: 1019583634}
   - component: {fileID: 1019583633}
-  - component: {fileID: 1019583632}
   m_Layer: 0
   m_Name: CatcusSmall (49)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8289,17 +7674,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 96
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1019583632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1019583630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1019583633
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8309,7 +7683,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8418,6 +7792,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114070604201561918, guid: 69b389e54086fb647a9cb3ddda558704,
+        type: 2}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 577294258}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 69b389e54086fb647a9cb3ddda558704, type: 2}
   m_IsPrefabParent: 0
@@ -8431,10 +7810,9 @@ GameObject:
   - component: {fileID: 1046936842}
   - component: {fileID: 1046936845}
   - component: {fileID: 1046936844}
-  - component: {fileID: 1046936843}
   m_Layer: 0
   m_Name: CatcusTall (44)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8452,17 +7830,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1046936843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1046936841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1046936844
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8472,7 +7839,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8567,10 +7934,9 @@ GameObject:
   - component: {fileID: 1058321965}
   - component: {fileID: 1058321968}
   - component: {fileID: 1058321967}
-  - component: {fileID: 1058321966}
   m_Layer: 0
   m_Name: CatcusTall (25)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8588,17 +7954,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1058321966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1058321964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1058321967
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8608,7 +7963,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8698,10 +8053,9 @@ GameObject:
   - component: {fileID: 1060927857}
   - component: {fileID: 1060927860}
   - component: {fileID: 1060927859}
-  - component: {fileID: 1060927858}
   m_Layer: 0
   m_Name: CatcusTall (30)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8719,17 +8073,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1060927858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1060927856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1060927859
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8739,7 +8082,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8926,10 +8269,9 @@ GameObject:
   - component: {fileID: 1070060463}
   - component: {fileID: 1070060466}
   - component: {fileID: 1070060465}
-  - component: {fileID: 1070060464}
   m_Layer: 0
   m_Name: CatcusTall (31)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8947,17 +8289,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1070060464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1070060462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1070060465
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8967,7 +8298,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9057,10 +8388,9 @@ GameObject:
   - component: {fileID: 1074305338}
   - component: {fileID: 1074305341}
   - component: {fileID: 1074305340}
-  - component: {fileID: 1074305339}
   m_Layer: 0
   m_Name: CatcusTall (50)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9078,17 +8408,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 100
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1074305339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1074305337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1074305340
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -9098,7 +8417,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9188,10 +8507,9 @@ GameObject:
   - component: {fileID: 1093528339}
   - component: {fileID: 1093528342}
   - component: {fileID: 1093528341}
-  - component: {fileID: 1093528340}
   m_Layer: 0
   m_Name: CatcusSmall (35)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9209,17 +8527,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1093528340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1093528338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1093528341
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -9229,7 +8536,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9309,10 +8616,9 @@ GameObject:
   - component: {fileID: 1153110592}
   - component: {fileID: 1153110595}
   - component: {fileID: 1153110594}
-  - component: {fileID: 1153110593}
   m_Layer: 0
   m_Name: CatcusTall (39)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9330,17 +8636,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1153110593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1153110591}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1153110594
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -9350,7 +8645,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9440,10 +8735,9 @@ GameObject:
   - component: {fileID: 1178184059}
   - component: {fileID: 1178184062}
   - component: {fileID: 1178184061}
-  - component: {fileID: 1178184060}
   m_Layer: 0
   m_Name: CatcusSmall (24)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9461,17 +8755,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1178184060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1178184058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1178184061
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -9481,7 +8764,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9561,10 +8844,9 @@ GameObject:
   - component: {fileID: 1192068792}
   - component: {fileID: 1192068795}
   - component: {fileID: 1192068794}
-  - component: {fileID: 1192068793}
   m_Layer: 0
   m_Name: CatcusTall (52)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9582,17 +8864,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 106
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1192068793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1192068791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1192068794
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -9602,7 +8873,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9692,10 +8963,9 @@ GameObject:
   - component: {fileID: 1223736571}
   - component: {fileID: 1223736574}
   - component: {fileID: 1223736573}
-  - component: {fileID: 1223736572}
   m_Layer: 0
   m_Name: CatcusSmall (45)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9713,17 +8983,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 91
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1223736572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1223736570}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1223736573
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -9733,7 +8992,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9813,10 +9072,9 @@ GameObject:
   - component: {fileID: 1235487959}
   - component: {fileID: 1235487962}
   - component: {fileID: 1235487961}
-  - component: {fileID: 1235487960}
   m_Layer: 0
   m_Name: CatcusTall (29)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9834,17 +9092,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1235487960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1235487958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1235487961
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -9854,7 +9101,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10046,10 +9293,9 @@ GameObject:
   - component: {fileID: 1268677914}
   - component: {fileID: 1268677917}
   - component: {fileID: 1268677916}
-  - component: {fileID: 1268677915}
   m_Layer: 0
   m_Name: CatcusTall (45)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10067,17 +9313,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1268677915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1268677913}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1268677916
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -10087,7 +9322,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10177,10 +9412,9 @@ GameObject:
   - component: {fileID: 1269827381}
   - component: {fileID: 1269827384}
   - component: {fileID: 1269827383}
-  - component: {fileID: 1269827382}
   m_Layer: 0
   m_Name: CatcusSmall (50)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10198,17 +9432,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 101
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1269827382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1269827380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1269827383
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -10218,7 +9441,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10369,25 +9592,13 @@ GameObject:
   - component: {fileID: 1274925661}
   - component: {fileID: 1274925660}
   - component: {fileID: 1274925659}
-  - component: {fileID: 1274925658}
   m_Layer: 0
   m_Name: CatcusSmall
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1274925658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1274925657}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1274925659
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -10397,7 +9608,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10490,10 +9701,9 @@ GameObject:
   - component: {fileID: 1279470747}
   - component: {fileID: 1279470750}
   - component: {fileID: 1279470749}
-  - component: {fileID: 1279470748}
   m_Layer: 0
   m_Name: CatcusSmall (17)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10511,17 +9721,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1279470748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1279470746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1279470749
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -10531,7 +9730,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10611,25 +9810,13 @@ GameObject:
   - component: {fileID: 1304564375}
   - component: {fileID: 1304564374}
   - component: {fileID: 1304564373}
-  - component: {fileID: 1304564372}
   m_Layer: 0
   m_Name: CatcusSmall (10)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1304564372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1304564371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1304564373
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -10639,7 +9826,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10732,10 +9919,9 @@ GameObject:
   - component: {fileID: 1304956879}
   - component: {fileID: 1304956882}
   - component: {fileID: 1304956881}
-  - component: {fileID: 1304956880}
   m_Layer: 0
   m_Name: CatcusSmall (33)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10753,17 +9939,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1304956880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1304956878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1304956881
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -10773,7 +9948,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10853,10 +10028,9 @@ GameObject:
   - component: {fileID: 1321222723}
   - component: {fileID: 1321222726}
   - component: {fileID: 1321222725}
-  - component: {fileID: 1321222724}
   m_Layer: 0
   m_Name: CatcusSmall (48)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10874,17 +10048,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1321222724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1321222722}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1321222725
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -10894,7 +10057,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -11034,10 +10197,9 @@ GameObject:
   - component: {fileID: 1360635082}
   - component: {fileID: 1360635085}
   - component: {fileID: 1360635084}
-  - component: {fileID: 1360635083}
   m_Layer: 0
   m_Name: CatcusSmall (38)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11055,17 +10217,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1360635083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1360635081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1360635084
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -11075,7 +10226,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -11155,10 +10306,9 @@ GameObject:
   - component: {fileID: 1375377404}
   - component: {fileID: 1375377403}
   - component: {fileID: 1375377406}
-  - component: {fileID: 1375377405}
   m_Layer: 0
   m_Name: CatcusTall
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11218,17 +10368,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1375377405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1375377402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1375377406
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -11238,7 +10377,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -11383,10 +10522,9 @@ GameObject:
   - component: {fileID: 1377942855}
   - component: {fileID: 1377942858}
   - component: {fileID: 1377942857}
-  - component: {fileID: 1377942856}
   m_Layer: 0
   m_Name: CatcusSmall (21)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11404,17 +10542,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1377942856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1377942854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1377942857
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -11424,7 +10551,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -11504,10 +10631,9 @@ GameObject:
   - component: {fileID: 1385603401}
   - component: {fileID: 1385603404}
   - component: {fileID: 1385603403}
-  - component: {fileID: 1385603402}
   m_Layer: 0
   m_Name: CatcusTall (20)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11525,17 +10651,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1385603402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1385603400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1385603403
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -11545,7 +10660,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -11635,10 +10750,9 @@ GameObject:
   - component: {fileID: 1394259735}
   - component: {fileID: 1394259738}
   - component: {fileID: 1394259737}
-  - component: {fileID: 1394259736}
   m_Layer: 0
   m_Name: CatcusTall (40)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11656,17 +10770,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1394259736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1394259734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1394259737
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -11676,7 +10779,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -11776,10 +10879,9 @@ GameObject:
   - component: {fileID: 1413245565}
   - component: {fileID: 1413245568}
   - component: {fileID: 1413245567}
-  - component: {fileID: 1413245566}
   m_Layer: 0
   m_Name: CatcusTall (12)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11797,17 +10899,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1413245566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1413245564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1413245567
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -11817,7 +10908,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -11907,25 +10998,13 @@ GameObject:
   - component: {fileID: 1414162747}
   - component: {fileID: 1414162746}
   - component: {fileID: 1414162745}
-  - component: {fileID: 1414162744}
   m_Layer: 0
   m_Name: CatcusSmall (5)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1414162744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1414162743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1414162745
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -11935,7 +11014,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -12028,25 +11107,13 @@ GameObject:
   - component: {fileID: 1424710636}
   - component: {fileID: 1424710635}
   - component: {fileID: 1424710634}
-  - component: {fileID: 1424710633}
   m_Layer: 0
   m_Name: CatcusTall (3)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1424710633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1424710632}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1424710634
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -12056,7 +11123,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -12159,10 +11226,9 @@ GameObject:
   - component: {fileID: 1455407762}
   - component: {fileID: 1455407765}
   - component: {fileID: 1455407764}
-  - component: {fileID: 1455407763}
   m_Layer: 0
   m_Name: CatcusTall (26)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12180,17 +11246,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1455407763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1455407761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1455407764
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -12200,7 +11255,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -12387,10 +11442,9 @@ GameObject:
   - component: {fileID: 1500225797}
   - component: {fileID: 1500225800}
   - component: {fileID: 1500225799}
-  - component: {fileID: 1500225798}
   m_Layer: 0
   m_Name: CatcusTall (11)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12408,17 +11462,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1500225798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1500225796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1500225799
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -12428,7 +11471,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -12518,10 +11561,9 @@ GameObject:
   - component: {fileID: 1503588377}
   - component: {fileID: 1503588380}
   - component: {fileID: 1503588379}
-  - component: {fileID: 1503588378}
   m_Layer: 0
   m_Name: CatcusTall (16)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12539,17 +11581,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1503588378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1503588376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1503588379
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -12559,7 +11590,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -12649,10 +11680,9 @@ GameObject:
   - component: {fileID: 1507376130}
   - component: {fileID: 1507376133}
   - component: {fileID: 1507376132}
-  - component: {fileID: 1507376131}
   m_Layer: 0
   m_Name: CatcusSmall (20)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12670,17 +11700,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1507376131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1507376129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1507376132
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -12690,7 +11709,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -12770,10 +11789,9 @@ GameObject:
   - component: {fileID: 1520273402}
   - component: {fileID: 1520273405}
   - component: {fileID: 1520273404}
-  - component: {fileID: 1520273403}
   m_Layer: 0
   m_Name: CatcusTall (41)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12791,17 +11809,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1520273403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1520273401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1520273404
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -12811,7 +11818,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -12972,10 +11979,9 @@ GameObject:
   - component: {fileID: 1567629922}
   - component: {fileID: 1567629925}
   - component: {fileID: 1567629924}
-  - component: {fileID: 1567629923}
   m_Layer: 0
   m_Name: CatcusSmall (14)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12993,17 +11999,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1567629923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1567629921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1567629924
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -13013,7 +12008,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -13093,10 +12088,9 @@ GameObject:
   - component: {fileID: 1569599507}
   - component: {fileID: 1569599510}
   - component: {fileID: 1569599509}
-  - component: {fileID: 1569599508}
   m_Layer: 0
   m_Name: CatcusSmall (34)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13114,17 +12108,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1569599508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1569599506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1569599509
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -13134,7 +12117,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -13248,6 +12231,21 @@ Prefab:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 1855548071}
+    - target: {fileID: 114104496232133834, guid: a1b62e4f04ecd254eb3d5b7a249b84b3,
+        type: 2}
+      propertyPath: Money
+      value: 
+      objectReference: {fileID: 1855548071}
+    - target: {fileID: 114104496232133834, guid: a1b62e4f04ecd254eb3d5b7a249b84b3,
+        type: 2}
+      propertyPath: badiesBooted
+      value: 
+      objectReference: {fileID: 832032513}
+    - target: {fileID: 114104496232133834, guid: a1b62e4f04ecd254eb3d5b7a249b84b3,
+        type: 2}
+      propertyPath: tickTock
+      value: 
+      objectReference: {fileID: 2147322702}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1b62e4f04ecd254eb3d5b7a249b84b3, type: 2}
   m_IsPrefabParent: 0
@@ -13266,10 +12264,9 @@ GameObject:
   - component: {fileID: 1577973397}
   - component: {fileID: 1577973400}
   - component: {fileID: 1577973399}
-  - component: {fileID: 1577973398}
   m_Layer: 0
   m_Name: CatcusSmall (52)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13287,17 +12284,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 103
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1577973398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1577973396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1577973399
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -13307,7 +12293,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -13592,25 +12578,13 @@ GameObject:
   - component: {fileID: 1608931772}
   - component: {fileID: 1608931771}
   - component: {fileID: 1608931770}
-  - component: {fileID: 1608931769}
   m_Layer: 0
   m_Name: CatcusSmall (7)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1608931769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1608931768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1608931770
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -13620,7 +12594,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -13810,7 +12784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xMin: 0
   yMin: 0
-  xMax: 276.18
+  xMax: 500
   yMax: 0
   target: {fileID: 1055286324}
 --- !u!1 &1649629215
@@ -13823,10 +12797,9 @@ GameObject:
   - component: {fileID: 1649629216}
   - component: {fileID: 1649629219}
   - component: {fileID: 1649629218}
-  - component: {fileID: 1649629217}
   m_Layer: 0
   m_Name: CatcusTall (42)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13844,17 +12817,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1649629217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1649629215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1649629218
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -13864,7 +12826,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -14051,10 +13013,9 @@ GameObject:
   - component: {fileID: 1661393047}
   - component: {fileID: 1661393050}
   - component: {fileID: 1661393049}
-  - component: {fileID: 1661393048}
   m_Layer: 0
   m_Name: CatcusTall (15)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14072,17 +13033,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1661393048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1661393046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1661393049
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -14092,7 +13042,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -14182,25 +13132,13 @@ GameObject:
   - component: {fileID: 1671458346}
   - component: {fileID: 1671458345}
   - component: {fileID: 1671458344}
-  - component: {fileID: 1671458343}
   m_Layer: 0
   m_Name: CatcusSmall (12)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1671458343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1671458342}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1671458344
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -14210,7 +13148,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -14303,10 +13241,9 @@ GameObject:
   - component: {fileID: 1684306372}
   - component: {fileID: 1684306375}
   - component: {fileID: 1684306374}
-  - component: {fileID: 1684306373}
   m_Layer: 0
   m_Name: CatcusSmall (25)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14324,17 +13261,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1684306373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1684306371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1684306374
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -14344,7 +13270,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -14424,10 +13350,9 @@ GameObject:
   - component: {fileID: 1697378605}
   - component: {fileID: 1697378608}
   - component: {fileID: 1697378607}
-  - component: {fileID: 1697378606}
   m_Layer: 0
   m_Name: CatcusTall (19)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14445,17 +13370,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1697378606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1697378604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1697378607
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -14465,7 +13379,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -14555,10 +13469,9 @@ GameObject:
   - component: {fileID: 1704707525}
   - component: {fileID: 1704707528}
   - component: {fileID: 1704707527}
-  - component: {fileID: 1704707526}
   m_Layer: 0
   m_Name: CatcusTall (4)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14576,17 +13489,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1704707526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1704707524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1704707527
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -14596,7 +13498,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -14686,25 +13588,13 @@ GameObject:
   - component: {fileID: 1779098633}
   - component: {fileID: 1779098632}
   - component: {fileID: 1779098631}
-  - component: {fileID: 1779098630}
   m_Layer: 0
   m_Name: CatcusSmall (1)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1779098630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1779098629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1779098631
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -14714,7 +13604,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -14807,10 +13697,9 @@ GameObject:
   - component: {fileID: 1800153273}
   - component: {fileID: 1800153276}
   - component: {fileID: 1800153275}
-  - component: {fileID: 1800153274}
   m_Layer: 0
   m_Name: CatcusSmall (31)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14828,17 +13717,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1800153274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1800153272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1800153275
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -14848,7 +13726,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -14928,10 +13806,9 @@ GameObject:
   - component: {fileID: 1802844141}
   - component: {fileID: 1802844144}
   - component: {fileID: 1802844143}
-  - component: {fileID: 1802844142}
   m_Layer: 0
   m_Name: CatcusTall (18)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14949,17 +13826,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1802844142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1802844140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1802844143
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -14969,7 +13835,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -15059,25 +13925,13 @@ GameObject:
   - component: {fileID: 1830440058}
   - component: {fileID: 1830440057}
   - component: {fileID: 1830440056}
-  - component: {fileID: 1830440055}
   m_Layer: 0
   m_Name: CatcusSmall (13)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1830440055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1830440054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1830440056
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -15087,7 +13941,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -15180,25 +14034,13 @@ GameObject:
   - component: {fileID: 1838037846}
   - component: {fileID: 1838037845}
   - component: {fileID: 1838037844}
-  - component: {fileID: 1838037843}
   m_Layer: 0
   m_Name: CatcusSmall (2)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1838037843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1838037842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1838037844
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -15208,7 +14050,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -15347,25 +14189,13 @@ GameObject:
   - component: {fileID: 1849294308}
   - component: {fileID: 1849294307}
   - component: {fileID: 1849294306}
-  - component: {fileID: 1849294305}
   m_Layer: 0
   m_Name: CatcusSmall (4)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1849294305
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1849294304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1849294306
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -15375,7 +14205,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -15474,10 +14304,9 @@ GameObject:
   - component: {fileID: 1904246523}
   - component: {fileID: 1904246526}
   - component: {fileID: 1904246525}
-  - component: {fileID: 1904246524}
   m_Layer: 0
   m_Name: CatcusTall (49)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15495,17 +14324,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 99
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1904246524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1904246522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1904246525
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -15515,7 +14333,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -15605,10 +14423,9 @@ GameObject:
   - component: {fileID: 1910696983}
   - component: {fileID: 1910696986}
   - component: {fileID: 1910696985}
-  - component: {fileID: 1910696984}
   m_Layer: 0
   m_Name: CatcusSmall (23)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15626,17 +14443,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1910696984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1910696982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1910696985
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -15646,7 +14452,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -15823,25 +14629,13 @@ GameObject:
   - component: {fileID: 1912901285}
   - component: {fileID: 1912901284}
   - component: {fileID: 1912901283}
-  - component: {fileID: 1912901282}
   m_Layer: 0
   m_Name: CatcusSmall (9)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1912901282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1912901281}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1912901283
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -15851,7 +14645,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -15990,10 +14784,9 @@ GameObject:
   - component: {fileID: 1918765793}
   - component: {fileID: 1918765796}
   - component: {fileID: 1918765795}
-  - component: {fileID: 1918765794}
   m_Layer: 0
   m_Name: CatcusSmall (32)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16011,17 +14804,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1918765794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1918765792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1918765795
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -16031,7 +14813,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -16111,10 +14893,9 @@ GameObject:
   - component: {fileID: 1941733716}
   - component: {fileID: 1941733719}
   - component: {fileID: 1941733718}
-  - component: {fileID: 1941733717}
   m_Layer: 0
   m_Name: CatcusTall (43)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16132,17 +14913,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1941733717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1941733715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1941733718
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -16152,7 +14922,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -16242,10 +15012,9 @@ GameObject:
   - component: {fileID: 1942104846}
   - component: {fileID: 1942104849}
   - component: {fileID: 1942104848}
-  - component: {fileID: 1942104847}
   m_Layer: 0
   m_Name: CatcusTall (48)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16263,17 +15032,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 98
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1942104847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1942104845}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1942104848
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -16283,7 +15041,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -16373,10 +15131,9 @@ GameObject:
   - component: {fileID: 1973353437}
   - component: {fileID: 1973353440}
   - component: {fileID: 1973353439}
-  - component: {fileID: 1973353438}
   m_Layer: 0
   m_Name: CatcusSmall (51)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16394,17 +15151,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 102
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1973353438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1973353436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1973353439
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -16414,7 +15160,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -16591,25 +15337,13 @@ GameObject:
   - component: {fileID: 2000768573}
   - component: {fileID: 2000768572}
   - component: {fileID: 2000768571}
-  - component: {fileID: 2000768570}
   m_Layer: 0
   m_Name: CatcusSmall (15)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2000768570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2000768569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &2000768571
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -16619,7 +15353,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -16809,10 +15543,9 @@ GameObject:
   - component: {fileID: 2046595689}
   - component: {fileID: 2046595692}
   - component: {fileID: 2046595691}
-  - component: {fileID: 2046595690}
   m_Layer: 0
   m_Name: CatcusTall (5)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16830,17 +15563,6 @@ Transform:
   m_Father: {fileID: 516427101}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2046595690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2046595688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &2046595691
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -16850,7 +15572,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -17055,3 +15777,9 @@ Transform:
   m_PrefabParentObject: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b,
     type: 2}
   m_PrefabInternal: {fileID: 593782238}
+--- !u!114 &2147322702 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114751974360869272, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 221224143}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}

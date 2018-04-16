@@ -118,10 +118,9 @@ GameObject:
   - component: {fileID: 11004849}
   - component: {fileID: 11004852}
   - component: {fileID: 11004851}
-  - component: {fileID: 11004850}
   m_Layer: 0
   m_Name: QuickSand_2 (16)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -139,17 +138,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11004850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 11004848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &11004851
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -159,7 +147,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -217,10 +205,9 @@ GameObject:
   - component: {fileID: 11309249}
   - component: {fileID: 11309252}
   - component: {fileID: 11309251}
-  - component: {fileID: 11309250}
   m_Layer: 0
   m_Name: QuickSand_1 (19)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -238,17 +225,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11309250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 11309248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &11309251
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -258,7 +234,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -459,10 +435,9 @@ GameObject:
   - component: {fileID: 81041862}
   - component: {fileID: 81041865}
   - component: {fileID: 81041864}
-  - component: {fileID: 81041863}
   m_Layer: 0
   m_Name: QuickSand_1 (10)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -480,17 +455,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &81041863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 81041861}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &81041864
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -500,7 +464,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -655,10 +619,9 @@ GameObject:
   - component: {fileID: 93926911}
   - component: {fileID: 93926914}
   - component: {fileID: 93926913}
-  - component: {fileID: 93926912}
   m_Layer: 0
   m_Name: QuickSand_1 (14)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -676,17 +639,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &93926912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 93926910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &93926913
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -696,7 +648,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -941,10 +893,9 @@ GameObject:
   - component: {fileID: 113211848}
   - component: {fileID: 113211851}
   - component: {fileID: 113211850}
-  - component: {fileID: 113211849}
   m_Layer: 0
   m_Name: QuickSand_2 (22)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -962,17 +913,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &113211849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 113211847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &113211850
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -982,7 +922,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1040,10 +980,9 @@ GameObject:
   - component: {fileID: 130268455}
   - component: {fileID: 130268458}
   - component: {fileID: 130268457}
-  - component: {fileID: 130268456}
   m_Layer: 0
   m_Name: QuickSand_2 (6)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1061,17 +1000,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &130268456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 130268454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &130268457
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1081,7 +1009,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1440,10 +1368,9 @@ GameObject:
   - component: {fileID: 170925164}
   - component: {fileID: 170925167}
   - component: {fileID: 170925166}
-  - component: {fileID: 170925165}
   m_Layer: 0
   m_Name: QuickSand_2 (24)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1461,17 +1388,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &170925165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 170925163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &170925166
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1481,7 +1397,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1539,10 +1455,9 @@ GameObject:
   - component: {fileID: 170939108}
   - component: {fileID: 170939111}
   - component: {fileID: 170939110}
-  - component: {fileID: 170939109}
   m_Layer: 0
   m_Name: QuickSand_2 (2)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1560,17 +1475,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &170939109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 170939107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &170939110
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1580,7 +1484,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1735,10 +1639,9 @@ GameObject:
   - component: {fileID: 205684607}
   - component: {fileID: 205684610}
   - component: {fileID: 205684609}
-  - component: {fileID: 205684608}
   m_Layer: 0
   m_Name: QuickSand_2 (9)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1756,17 +1659,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &205684608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 205684606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &205684609
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1776,7 +1668,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1834,10 +1726,9 @@ GameObject:
   - component: {fileID: 286499743}
   - component: {fileID: 286499746}
   - component: {fileID: 286499745}
-  - component: {fileID: 286499744}
   m_Layer: 0
   m_Name: QuickSand_2 (18)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1855,17 +1746,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &286499744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 286499742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &286499745
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1875,7 +1755,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2224,10 +2104,9 @@ GameObject:
   - component: {fileID: 448725949}
   - component: {fileID: 448725952}
   - component: {fileID: 448725951}
-  - component: {fileID: 448725950}
   m_Layer: 0
   m_Name: QuickSand_1 (13)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2245,17 +2124,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &448725950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 448725948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &448725951
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2265,7 +2133,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2323,10 +2191,9 @@ GameObject:
   - component: {fileID: 485727092}
   - component: {fileID: 485727095}
   - component: {fileID: 485727094}
-  - component: {fileID: 485727093}
   m_Layer: 0
   m_Name: QuickSand_2 (8)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2344,17 +2211,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &485727093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 485727091}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &485727094
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2364,7 +2220,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2422,10 +2278,9 @@ GameObject:
   - component: {fileID: 486884336}
   - component: {fileID: 486884339}
   - component: {fileID: 486884338}
-  - component: {fileID: 486884337}
   m_Layer: 0
   m_Name: QuickSand_2 (21)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2443,17 +2298,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &486884337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 486884335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &486884338
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2463,7 +2307,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2521,10 +2365,9 @@ GameObject:
   - component: {fileID: 494780036}
   - component: {fileID: 494780039}
   - component: {fileID: 494780038}
-  - component: {fileID: 494780037}
   m_Layer: 0
   m_Name: QuickSand_2 (19)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2542,17 +2385,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &494780037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 494780035}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &494780038
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2562,7 +2394,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2691,6 +2523,12 @@ Transform:
   m_PrefabParentObject: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b,
     type: 2}
   m_PrefabInternal: {fileID: 106443626}
+--- !u!114 &546788081 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114115061600086082, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1642234182}
+  m_Script: {fileID: -113659843, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &564510087
 GameObject:
   m_ObjectHideFlags: 0
@@ -2834,10 +2672,9 @@ GameObject:
   - component: {fileID: 623359054}
   - component: {fileID: 623359057}
   - component: {fileID: 623359056}
-  - component: {fileID: 623359055}
   m_Layer: 0
   m_Name: QuickSand_1 (20)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2855,17 +2692,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &623359055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 623359053}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &623359056
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2875,7 +2701,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3030,10 +2856,9 @@ GameObject:
   - component: {fileID: 670634670}
   - component: {fileID: 670634673}
   - component: {fileID: 670634672}
-  - component: {fileID: 670634671}
   m_Layer: 0
   m_Name: QuickSand_2 (7)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3051,17 +2876,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &670634671
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 670634669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &670634672
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3071,7 +2885,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3226,10 +3040,9 @@ GameObject:
   - component: {fileID: 675957476}
   - component: {fileID: 675957479}
   - component: {fileID: 675957478}
-  - component: {fileID: 675957477}
   m_Layer: 0
   m_Name: QuickSand_1 (12)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3247,17 +3060,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &675957477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 675957475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &675957478
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3267,7 +3069,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3325,10 +3127,9 @@ GameObject:
   - component: {fileID: 687606949}
   - component: {fileID: 687606952}
   - component: {fileID: 687606951}
-  - component: {fileID: 687606950}
   m_Layer: 0
   m_Name: QuickSand_1 (7)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3346,17 +3147,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &687606950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 687606948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &687606951
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3366,7 +3156,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3453,14 +3243,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 4390617854777894, guid: d87b5d9dcddaa174d94bb1989adc3178, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4390617854777894, guid: d87b5d9dcddaa174d94bb1989adc3178, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 3
-      objectReference: {fileID: 0}
+    - target: {fileID: 114071605786466610, guid: d87b5d9dcddaa174d94bb1989adc3178,
+        type: 2}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 546788081}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87b5d9dcddaa174d94bb1989adc3178, type: 2}
   m_IsPrefabParent: 0
@@ -3576,10 +3363,9 @@ GameObject:
   - component: {fileID: 852274705}
   - component: {fileID: 852274708}
   - component: {fileID: 852274707}
-  - component: {fileID: 852274706}
   m_Layer: 0
   m_Name: QuickSand_1 (6)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3597,17 +3383,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &852274706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 852274704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &852274707
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3617,7 +3392,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4196,10 +3971,9 @@ GameObject:
   - component: {fileID: 1005116883}
   - component: {fileID: 1005116886}
   - component: {fileID: 1005116885}
-  - component: {fileID: 1005116884}
   m_Layer: 0
   m_Name: QuickSand_1 (3)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4217,17 +3991,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1005116884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1005116882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1005116885
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -4237,7 +4000,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4911,6 +4674,12 @@ Transform:
   m_Father: {fileID: 1280868886}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1135227321 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114751974360869272, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1642234182}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1157064482
 GameObject:
   m_ObjectHideFlags: 0
@@ -4921,10 +4690,9 @@ GameObject:
   - component: {fileID: 1157064483}
   - component: {fileID: 1157064486}
   - component: {fileID: 1157064485}
-  - component: {fileID: 1157064484}
   m_Layer: 0
   m_Name: QuickSand_1 (1)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4942,17 +4710,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1157064484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1157064482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1157064485
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -4962,7 +4719,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5020,10 +4777,9 @@ GameObject:
   - component: {fileID: 1199506077}
   - component: {fileID: 1199506080}
   - component: {fileID: 1199506079}
-  - component: {fileID: 1199506078}
   m_Layer: 0
   m_Name: QuickSand_1 (8)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5041,17 +4797,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1199506078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1199506076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1199506079
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5061,7 +4806,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5119,10 +4864,9 @@ GameObject:
   - component: {fileID: 1205281047}
   - component: {fileID: 1205281050}
   - component: {fileID: 1205281049}
-  - component: {fileID: 1205281048}
   m_Layer: 0
   m_Name: QuickSand_2 (5)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5140,17 +4884,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1205281048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1205281046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1205281049
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5160,7 +4893,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5218,10 +4951,9 @@ GameObject:
   - component: {fileID: 1210999804}
   - component: {fileID: 1210999807}
   - component: {fileID: 1210999806}
-  - component: {fileID: 1210999805}
   m_Layer: 0
   m_Name: QuickSand_1 (11)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5239,17 +4971,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1210999805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1210999803}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1210999806
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5259,7 +4980,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5675,10 +5396,9 @@ GameObject:
   - component: {fileID: 1290659535}
   - component: {fileID: 1290659538}
   - component: {fileID: 1290659537}
-  - component: {fileID: 1290659536}
   m_Layer: 0
   m_Name: QuickSand_1 (5)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5696,17 +5416,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1290659536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1290659534}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1290659537
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5716,7 +5425,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5942,10 +5651,9 @@ GameObject:
   - component: {fileID: 1333463114}
   - component: {fileID: 1333463117}
   - component: {fileID: 1333463116}
-  - component: {fileID: 1333463115}
   m_Layer: 0
   m_Name: QuickSand_2 (4)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5963,17 +5671,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1333463115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1333463113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1333463116
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5983,7 +5680,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6190,10 +5887,9 @@ GameObject:
   - component: {fileID: 1369751066}
   - component: {fileID: 1369751069}
   - component: {fileID: 1369751068}
-  - component: {fileID: 1369751067}
   m_Layer: 0
   m_Name: QuickSand_2 (13)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6211,17 +5907,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1369751067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1369751065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1369751068
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -6231,7 +5916,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6488,10 +6173,9 @@ GameObject:
   - component: {fileID: 1528486117}
   - component: {fileID: 1528486120}
   - component: {fileID: 1528486119}
-  - component: {fileID: 1528486118}
   m_Layer: 0
   m_Name: QuickSand_1 (21)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6509,17 +6193,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1528486118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1528486116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1528486119
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -6529,7 +6202,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6857,6 +6530,21 @@ Prefab:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 899801662}
+    - target: {fileID: 114104496232133834, guid: a1b62e4f04ecd254eb3d5b7a249b84b3,
+        type: 2}
+      propertyPath: Money
+      value: 
+      objectReference: {fileID: 899801662}
+    - target: {fileID: 114104496232133834, guid: a1b62e4f04ecd254eb3d5b7a249b84b3,
+        type: 2}
+      propertyPath: badiesBooted
+      value: 
+      objectReference: {fileID: 1951982119}
+    - target: {fileID: 114104496232133834, guid: a1b62e4f04ecd254eb3d5b7a249b84b3,
+        type: 2}
+      propertyPath: tickTock
+      value: 
+      objectReference: {fileID: 1135227321}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1b62e4f04ecd254eb3d5b7a249b84b3, type: 2}
   m_IsPrefabParent: 0
@@ -7003,6 +6691,16 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224843361982117462, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224843361982117462, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 000307de7bf7f6d489656744b7d33d46, type: 2}
   m_IsPrefabParent: 0
@@ -7062,10 +6760,9 @@ GameObject:
   - component: {fileID: 1674171319}
   - component: {fileID: 1674171322}
   - component: {fileID: 1674171321}
-  - component: {fileID: 1674171320}
   m_Layer: 0
   m_Name: QuickSand_2 (17)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7083,17 +6780,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1674171320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1674171318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1674171321
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -7103,7 +6789,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7235,10 +6921,9 @@ GameObject:
   - component: {fileID: 1712637953}
   - component: {fileID: 1712637956}
   - component: {fileID: 1712637955}
-  - component: {fileID: 1712637954}
   m_Layer: 0
   m_Name: QuickSand_1 (9)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7256,17 +6941,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1712637954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1712637952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1712637955
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -7276,7 +6950,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7431,10 +7105,9 @@ GameObject:
   - component: {fileID: 1746771576}
   - component: {fileID: 1746771579}
   - component: {fileID: 1746771578}
-  - component: {fileID: 1746771577}
   m_Layer: 0
   m_Name: QuickSand_2 (11)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7452,17 +7125,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1746771577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1746771575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1746771578
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -7472,7 +7134,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7627,10 +7289,9 @@ GameObject:
   - component: {fileID: 1755107720}
   - component: {fileID: 1755107719}
   - component: {fileID: 1755107722}
-  - component: {fileID: 1755107721}
   m_Layer: 0
   m_Name: QuickSand_1
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7690,17 +7351,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1755107721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1755107718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1755107722
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -7710,7 +7360,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7772,10 +7422,9 @@ GameObject:
   - component: {fileID: 1798283902}
   - component: {fileID: 1798283905}
   - component: {fileID: 1798283904}
-  - component: {fileID: 1798283903}
   m_Layer: 0
   m_Name: QuickSand_2
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7793,17 +7442,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1798283903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1798283901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1798283904
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -7813,7 +7451,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7871,10 +7509,9 @@ GameObject:
   - component: {fileID: 1802188182}
   - component: {fileID: 1802188185}
   - component: {fileID: 1802188184}
-  - component: {fileID: 1802188183}
   m_Layer: 0
   m_Name: QuickSand_1 (16)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7892,17 +7529,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1802188183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1802188181}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1802188184
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -7912,7 +7538,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7970,10 +7596,9 @@ GameObject:
   - component: {fileID: 1812154514}
   - component: {fileID: 1812154517}
   - component: {fileID: 1812154516}
-  - component: {fileID: 1812154515}
   m_Layer: 0
   m_Name: QuickSand_1 (2)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7991,17 +7616,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1812154515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1812154513}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1812154516
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -8011,7 +7625,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8069,10 +7683,9 @@ GameObject:
   - component: {fileID: 1853795317}
   - component: {fileID: 1853795320}
   - component: {fileID: 1853795319}
-  - component: {fileID: 1853795318}
   m_Layer: 0
   m_Name: QuickSand_2 (25)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8090,17 +7703,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1853795318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1853795316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1853795319
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -8110,7 +7712,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8265,10 +7867,9 @@ GameObject:
   - component: {fileID: 1860249079}
   - component: {fileID: 1860249082}
   - component: {fileID: 1860249081}
-  - component: {fileID: 1860249080}
   m_Layer: 0
   m_Name: QuickSand_2 (12)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8286,17 +7887,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1860249080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1860249078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1860249081
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -8306,7 +7896,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8364,10 +7954,9 @@ GameObject:
   - component: {fileID: 1862398122}
   - component: {fileID: 1862398125}
   - component: {fileID: 1862398124}
-  - component: {fileID: 1862398123}
   m_Layer: 0
   m_Name: QuickSand_1 (15)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8385,17 +7974,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1862398123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1862398121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1862398124
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -8405,7 +7983,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8463,10 +8041,9 @@ GameObject:
   - component: {fileID: 1867568673}
   - component: {fileID: 1867568676}
   - component: {fileID: 1867568675}
-  - component: {fileID: 1867568674}
   m_Layer: 0
   m_Name: QuickSand_2 (23)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8484,17 +8061,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1867568674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1867568672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1867568675
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -8504,7 +8070,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8604,10 +8170,9 @@ GameObject:
   - component: {fileID: 1893651586}
   - component: {fileID: 1893651589}
   - component: {fileID: 1893651588}
-  - component: {fileID: 1893651587}
   m_Layer: 0
   m_Name: QuickSand_2 (15)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8625,17 +8190,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1893651587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1893651585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1893651588
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -8645,7 +8199,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8703,10 +8257,9 @@ GameObject:
   - component: {fileID: 1941534254}
   - component: {fileID: 1941534257}
   - component: {fileID: 1941534256}
-  - component: {fileID: 1941534255}
   m_Layer: 0
   m_Name: QuickSand_1 (4)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8724,17 +8277,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1941534255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1941534253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1941534256
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -8744,7 +8286,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8797,6 +8339,12 @@ Transform:
   m_PrefabParentObject: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b,
     type: 2}
   m_PrefabInternal: {fileID: 1654700395}
+--- !u!114 &1951982119 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114078135142725212, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1642234182}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1969946339
 GameObject:
   m_ObjectHideFlags: 0
@@ -8904,10 +8452,9 @@ GameObject:
   - component: {fileID: 1986260138}
   - component: {fileID: 1986260141}
   - component: {fileID: 1986260140}
-  - component: {fileID: 1986260139}
   m_Layer: 0
   m_Name: QuickSand_1 (17)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8925,17 +8472,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1986260139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1986260137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1986260140
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -8945,7 +8481,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9003,10 +8539,9 @@ GameObject:
   - component: {fileID: 2001405846}
   - component: {fileID: 2001405849}
   - component: {fileID: 2001405848}
-  - component: {fileID: 2001405847}
   m_Layer: 0
   m_Name: QuickSand_2 (3)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9024,17 +8559,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2001405847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2001405845}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &2001405848
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -9044,7 +8568,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9107,10 +8631,9 @@ GameObject:
   - component: {fileID: 2019705374}
   - component: {fileID: 2019705377}
   - component: {fileID: 2019705376}
-  - component: {fileID: 2019705375}
   m_Layer: 0
   m_Name: QuickSand_2 (10)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9128,17 +8651,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2019705375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2019705373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &2019705376
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -9148,7 +8660,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9206,10 +8718,9 @@ GameObject:
   - component: {fileID: 2075383492}
   - component: {fileID: 2075383495}
   - component: {fileID: 2075383494}
-  - component: {fileID: 2075383493}
   m_Layer: 0
   m_Name: QuickSand_1 (18)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9227,17 +8738,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2075383493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2075383491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &2075383494
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -9247,7 +8747,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9305,10 +8805,9 @@ GameObject:
   - component: {fileID: 2080490741}
   - component: {fileID: 2080490744}
   - component: {fileID: 2080490743}
-  - component: {fileID: 2080490742}
   m_Layer: 0
   m_Name: QuickSand_2 (1)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9326,17 +8825,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2080490742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2080490740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &2080490743
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -9346,7 +8834,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9404,10 +8892,9 @@ GameObject:
   - component: {fileID: 2094892632}
   - component: {fileID: 2094892635}
   - component: {fileID: 2094892634}
-  - component: {fileID: 2094892633}
   m_Layer: 0
   m_Name: QuickSand_2 (14)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9425,17 +8912,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2094892633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2094892631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &2094892634
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -9445,7 +8921,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9503,10 +8979,9 @@ GameObject:
   - component: {fileID: 2143521223}
   - component: {fileID: 2143521226}
   - component: {fileID: 2143521225}
-  - component: {fileID: 2143521224}
   m_Layer: 0
   m_Name: QuickSand_2 (20)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9524,17 +8999,6 @@ Transform:
   m_Father: {fileID: 544885313}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2143521224
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2143521222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &2143521225
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -9544,7 +9008,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

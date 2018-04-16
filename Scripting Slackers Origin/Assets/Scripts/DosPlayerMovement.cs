@@ -92,6 +92,12 @@ public class DosPlayerMovement : MonoBehaviour
 			health -= 2;
             healthBar.value = health;
 		}
+
+		if (collision.transform.tag == "Spike") 
+		{
+			health -= 5;
+			healthBar.value = health;
+		}
     }
 
     private void OnCollisionExit2D(Collision2D collision)

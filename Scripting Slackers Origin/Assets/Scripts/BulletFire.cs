@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class BulletFire : MonoBehaviour {
 
 	public int rotationOffset = -90;
 	public Rigidbody2D bullet;
 	public float bulletSpeed = 300f;
+	//var bulletShot : Soundclip;
 
 
 	
@@ -32,6 +34,8 @@ public class BulletFire : MonoBehaviour {
 		{
 			var firedBullet = Instantiate (bullet, transform.position, transform.rotation);
 			firedBullet.AddForce (transform.up * bulletSpeed);
+
+			//audio.PlayOneShot (bulletShot);
 		}
 	}
 

@@ -372,6 +372,12 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &237796729 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114078135142725212, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 881362945}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &262920815
 GameObject:
   m_ObjectHideFlags: 0
@@ -615,10 +621,9 @@ GameObject:
   - component: {fileID: 358590840}
   - component: {fileID: 358590839}
   - component: {fileID: 358590843}
-  - component: {fileID: 358590842}
   m_Layer: 0
   m_Name: Wale1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -695,17 +700,6 @@ Transform:
   m_Father: {fileID: 175879239}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &358590842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 358590838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &358590843
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -715,7 +709,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -741,10 +735,9 @@ GameObject:
   - component: {fileID: 368147427}
   - component: {fileID: 368147430}
   - component: {fileID: 368147429}
-  - component: {fileID: 368147428}
   m_Layer: 0
   m_Name: Spikes (6)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -762,17 +755,6 @@ Transform:
   m_Father: {fileID: 375195542}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &368147428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 368147426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &368147429
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -782,7 +764,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.022907713, y: -0.019635443}
@@ -874,6 +856,21 @@ Prefab:
       propertyPath: scoreBoard
       value: 
       objectReference: {fileID: 1700603420}
+    - target: {fileID: 114104496232133834, guid: a1b62e4f04ecd254eb3d5b7a249b84b3,
+        type: 2}
+      propertyPath: Money
+      value: 
+      objectReference: {fileID: 1700603420}
+    - target: {fileID: 114104496232133834, guid: a1b62e4f04ecd254eb3d5b7a249b84b3,
+        type: 2}
+      propertyPath: badiesBooted
+      value: 
+      objectReference: {fileID: 237796729}
+    - target: {fileID: 114104496232133834, guid: a1b62e4f04ecd254eb3d5b7a249b84b3,
+        type: 2}
+      propertyPath: tickTock
+      value: 
+      objectReference: {fileID: 870615807}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1b62e4f04ecd254eb3d5b7a249b84b3, type: 2}
   m_IsPrefabParent: 0
@@ -1112,10 +1109,9 @@ GameObject:
   - component: {fileID: 466434771}
   - component: {fileID: 466434770}
   - component: {fileID: 466434774}
-  - component: {fileID: 466434773}
   m_Layer: 0
   m_Name: Goldfish1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1192,17 +1188,6 @@ Transform:
   m_Father: {fileID: 175879239}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &466434773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 466434769}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &466434774
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1212,7 +1197,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0024415436, y: 0.0008139793}
@@ -1390,10 +1375,9 @@ GameObject:
   - component: {fileID: 521549562}
   - component: {fileID: 521549565}
   - component: {fileID: 521549564}
-  - component: {fileID: 521549563}
   m_Layer: 0
   m_Name: Spikes (7)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1411,17 +1395,6 @@ Transform:
   m_Father: {fileID: 375195542}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &521549563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 521549561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &521549564
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1431,7 +1404,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.022907713, y: -0.019635443}
@@ -1646,6 +1619,12 @@ Transform:
   m_PrefabParentObject: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b,
     type: 2}
   m_PrefabInternal: {fileID: 646292810}
+--- !u!114 &684879443 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114115061600086082, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 881362945}
+  m_Script: {fileID: -113659843, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!4 &710748637 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b,
@@ -1661,10 +1640,9 @@ GameObject:
   - component: {fileID: 712111317}
   - component: {fileID: 712111320}
   - component: {fileID: 712111319}
-  - component: {fileID: 712111318}
   m_Layer: 0
   m_Name: Spikes (8)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1682,17 +1660,6 @@ Transform:
   m_Father: {fileID: 375195542}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &712111318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 712111316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &712111319
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1702,7 +1669,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.022907713, y: -0.019635443}
@@ -2334,6 +2301,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &870615807 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114751974360869272, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 881362945}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1001 &881362945
 Prefab:
   m_ObjectHideFlags: 0
@@ -2430,6 +2403,16 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224843361982117462, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224843361982117462, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 000307de7bf7f6d489656744b7d33d46, type: 2}
@@ -2560,10 +2543,9 @@ GameObject:
   - component: {fileID: 918149073}
   - component: {fileID: 918149076}
   - component: {fileID: 918149075}
-  - component: {fileID: 918149074}
   m_Layer: 0
   m_Name: Spikes (9)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2581,17 +2563,6 @@ Transform:
   m_Father: {fileID: 375195542}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &918149074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 918149072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &918149075
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2601,7 +2572,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.022907713, y: -0.019635443}
@@ -3290,10 +3261,9 @@ GameObject:
   - component: {fileID: 1216129003}
   - component: {fileID: 1216129006}
   - component: {fileID: 1216129005}
-  - component: {fileID: 1216129004}
   m_Layer: 0
   m_Name: Spikes (4)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3311,17 +3281,6 @@ Transform:
   m_Father: {fileID: 375195542}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!114 &1216129004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1216129002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1216129005
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3331,7 +3290,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.022907713, y: -0.019635443}
@@ -3737,10 +3696,9 @@ GameObject:
   - component: {fileID: 1399678986}
   - component: {fileID: 1399678985}
   - component: {fileID: 1399678988}
-  - component: {fileID: 1399678987}
   m_Layer: 0
   m_Name: Spikes (1)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3800,17 +3758,6 @@ Transform:
   m_Father: {fileID: 375195542}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1399678987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1399678984}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1399678988
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3820,7 +3767,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.022907713, y: -0.019635443}
@@ -4396,6 +4343,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114950033877932382, guid: 3349d088112ea8e44a13ad8274bcd5ea,
+        type: 2}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 684879443}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3349d088112ea8e44a13ad8274bcd5ea, type: 2}
   m_IsPrefabParent: 0
@@ -4642,10 +4594,9 @@ GameObject:
   - component: {fileID: 1687711325}
   - component: {fileID: 1687711324}
   - component: {fileID: 1687711328}
-  - component: {fileID: 1687711327}
   m_Layer: 0
   m_Name: Jelly1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4722,17 +4673,6 @@ Transform:
   m_Father: {fileID: 175879239}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1687711327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1687711323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1687711328
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -4742,7 +4682,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4844,10 +4784,9 @@ GameObject:
   - component: {fileID: 1718874595}
   - component: {fileID: 1718874598}
   - component: {fileID: 1718874597}
-  - component: {fileID: 1718874596}
   m_Layer: 0
   m_Name: Spikes (3)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4865,17 +4804,6 @@ Transform:
   m_Father: {fileID: 375195542}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1718874596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1718874594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1718874597
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -4885,7 +4813,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.022907713, y: -0.019635443}
@@ -5101,10 +5029,9 @@ GameObject:
   - component: {fileID: 1838033372}
   - component: {fileID: 1838033375}
   - component: {fileID: 1838033374}
-  - component: {fileID: 1838033373}
   m_Layer: 0
   m_Name: Spikes (5)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5122,17 +5049,6 @@ Transform:
   m_Father: {fileID: 375195542}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1838033373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1838033371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1838033374
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5142,7 +5058,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.022907713, y: -0.019635443}
@@ -5503,11 +5419,10 @@ GameObject:
   - component: {fileID: 2002612535}
   - component: {fileID: 2002612534}
   - component: {fileID: 2002612533}
-  - component: {fileID: 2002612532}
   - component: {fileID: 2002612531}
   m_Layer: 0
   m_Name: Magikarp1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5529,17 +5444,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &2002612532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2002612530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &2002612533
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5549,7 +5453,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -9.4739034e-15, y: -0.00000007947287}
@@ -5736,10 +5640,9 @@ GameObject:
   - component: {fileID: 2026088614}
   - component: {fileID: 2026088617}
   - component: {fileID: 2026088616}
-  - component: {fileID: 2026088615}
   m_Layer: 0
   m_Name: Spikes (2)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5757,17 +5660,6 @@ Transform:
   m_Father: {fileID: 375195542}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2026088615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2026088613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 730ada677e5e0564b89de1eed7344b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &2026088616
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5777,7 +5669,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.022907713, y: -0.019635443}
