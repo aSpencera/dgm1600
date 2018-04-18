@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 50174540272009314}
   - component: {fileID: 70690339222232126}
   m_Layer: 0
-  m_Name: Blupee
+  m_Name: Object_Blupee
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

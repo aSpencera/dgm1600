@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 
@@ -74,6 +75,10 @@ public class DosPlayerMovement : MonoBehaviour
         }
 
 
+		if (health <= 0) 
+		{
+			Application.LoadLevel("DeadScreen");
+		}
 
     }
 
