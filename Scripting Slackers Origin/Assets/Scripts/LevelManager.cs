@@ -11,7 +11,7 @@ public class LevelManager : MonoBehaviour {
 
     public void levelLoader(string sceneName)
     {
-        Application.LoadLevel(sceneName);
+        SceneManager.LoadScene(sceneName);
     }
 
 }
