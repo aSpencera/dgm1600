@@ -108,6 +108,11 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &67756198 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1018283952830844, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 881362945}
 --- !u!1 &69951317
 GameObject:
   m_ObjectHideFlags: 0
@@ -1963,6 +1968,7 @@ GameObject:
   - component: {fileID: 796262652}
   - component: {fileID: 796262657}
   - component: {fileID: 796262658}
+  - component: {fileID: 796262659}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2065,9 +2071,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 796262651}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e888d6930123844b9460ebd34669655, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b51c6dfc16ff704c84a576c68140f1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &796262659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 796262651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b1a31c08b63cd1498d3fb74b094ed7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseButton: {fileID: 2127679407}
+  pausePanel: {fileID: 67756198}
 --- !u!1 &812919348
 GameObject:
   m_ObjectHideFlags: 0
@@ -2413,6 +2432,61 @@ Prefab:
         type: 2}
       propertyPath: m_AnchorMax.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114241526184371544, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 796262659}
+    - target: {fileID: 114241526184371544, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnPause
+      objectReference: {fileID: 0}
+    - target: {fileID: 114035013024871492, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 796262659}
+    - target: {fileID: 114035013024871492, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnUnPause
+      objectReference: {fileID: 0}
+    - target: {fileID: 114899393440569444, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 796262659}
+    - target: {fileID: 114899393440569444, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnUnPause
+      objectReference: {fileID: 0}
+    - target: {fileID: 114899393440569444, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 796262658}
+    - target: {fileID: 114899393440569444, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: levelLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 114899393440569444, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114899393440569444, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114899393440569444, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: MainMenu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 000307de7bf7f6d489656744b7d33d46, type: 2}
@@ -5861,3 +5935,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2127679407 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1688698739300136, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 881362945}
