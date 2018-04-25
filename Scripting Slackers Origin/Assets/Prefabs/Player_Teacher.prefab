@@ -38,9 +38,9 @@ GameObject:
   - component: {fileID: 4987009800851402}
   - component: {fileID: 212002653537210720}
   - component: {fileID: 114874962449663594}
-  - component: {fileID: 70993325997902964}
   - component: {fileID: 50062641556726030}
   - component: {fileID: 95591243123438026}
+  - component: {fileID: 58598146280610548}
   m_Layer: 9
   m_Name: Player_Teacher
   m_TagString: Player
@@ -126,8 +126,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1724199962258234}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.06, y: 9.190382, z: 0}
   m_LocalScale: {x: 4.5, y: 4.5, z: 1}
   m_Children:
   - {fileID: 4777108482839744}
@@ -155,9 +155,9 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!70 &70993325997902964
-CapsuleCollider2D:
+  m_Constraints: 0
+--- !u!58 &58598146280610548
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -168,9 +168,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0056614876, y: 0}
-  m_Size: {x: 0.15313244, y: 0.5}
-  m_Direction: 0
+  m_Offset: {x: -0.0010755328, y: -0.000000052981907}
+  serializedVersion: 2
+  m_Radius: 0.16504267
 --- !u!95 &95591243123438026
 Animator:
   serializedVersion: 3
@@ -228,6 +228,10 @@ MonoBehaviour:
   speed: 4
   jump: 1
   isGrounded: 0
+  health: 0
+  healthBar: {fileID: 0}
+  maxHealth: 10
+  dedPanel: {fileID: 0}
 --- !u!114 &114971132728645236
 MonoBehaviour:
   m_ObjectHideFlags: 1

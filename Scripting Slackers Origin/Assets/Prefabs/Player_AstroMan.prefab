@@ -87,8 +87,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1676284057514032}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.09, y: 9.110382, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 4516661726067472}
@@ -155,7 +155,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!70 &70260278156505014
 CapsuleCollider2D:
   m_ObjectHideFlags: 1
@@ -168,8 +168,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.3, y: 0.64}
+  m_Offset: {x: 0.0062060356, y: 0.009764036}
+  m_Size: {x: 0.5139408, y: 0.5139408}
   m_Direction: 0
 --- !u!95 &95667109053410312
 Animator:
@@ -202,6 +202,10 @@ MonoBehaviour:
   speed: 4
   jump: 1
   isGrounded: 0
+  health: 0
+  healthBar: {fileID: 0}
+  maxHealth: 10
+  dedPanel: {fileID: 0}
 --- !u!114 &114521178681909134
 MonoBehaviour:
   m_ObjectHideFlags: 1

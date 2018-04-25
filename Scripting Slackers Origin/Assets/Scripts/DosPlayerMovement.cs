@@ -21,6 +21,7 @@ public class DosPlayerMovement : MonoBehaviour
 	public float health;
 	public Slider healthBar;
 	public float maxHealth = 10f;
+	public GameObject dedPanel;
 
 
 
@@ -32,6 +33,7 @@ public class DosPlayerMovement : MonoBehaviour
         rend = GetComponent<SpriteRenderer>();
 		health = maxHealth;
 		healthBar.value = health;
+		dedPanel.SetActive(false);
 	}
 
     // Update is called once per frame
@@ -77,7 +79,8 @@ public class DosPlayerMovement : MonoBehaviour
 
 		if (health <= 0) 
 		{
-			Application.LoadLevel("DeadScreen");
+			dedPanel.SetActive(true);
+			Time.timeScale = 0;
 		}
 
     }
@@ -103,6 +106,12 @@ public class DosPlayerMovement : MonoBehaviour
 			health -= 5;
 			healthBar.value = health;
 		}
+
+		if (collision.transform.tag == "Fire") 
+		{
+			health -= 10;
+			healthBar.value = health;
+		}
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -113,7 +122,6 @@ public class DosPlayerMovement : MonoBehaviour
         }
     }
 		
-	
 
 }
 

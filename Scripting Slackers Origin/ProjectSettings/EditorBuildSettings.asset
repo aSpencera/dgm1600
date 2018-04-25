@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/_Scenes/SongMenu.unity
     guid: 06b114a42cb928348b24bcdd0523c6ff
   - enabled: 1
+    path: Assets/_Scenes/PlayerMenu.unity
+    guid: 1ba024a213ebfbd47a0b36e609bf14b2
+  - enabled: 1
     path: Assets/_Scenes/Tutorial.unity
     guid: f81af5c22fba8774bbc70b2871cd514f
   - enabled: 1

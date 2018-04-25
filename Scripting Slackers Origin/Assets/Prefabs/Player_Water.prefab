@@ -39,7 +39,6 @@ GameObject:
   - component: {fileID: 114600874891470206}
   - component: {fileID: 70215818421342054}
   - component: {fileID: 50923333064327202}
-  - component: {fileID: 95939783615899844}
   m_Layer: 9
   m_Name: Player_Water
   m_TagString: Player
@@ -53,8 +52,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1569382483465174}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.84, y: 9.140382, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_Children:
   - {fileID: 4664277787474442}
@@ -93,7 +92,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!70 &70215818421342054
 CapsuleCollider2D:
   m_ObjectHideFlags: 1
@@ -106,26 +105,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.13, y: 0.25}
+  m_Offset: {x: 0, y: -0.060000002}
+  m_Size: {x: 0.13, y: 0.13}
   m_Direction: 0
---- !u!95 &95939783615899844
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1569382483465174}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1d06ff6132aa6e046a55da609d3e6f4a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114600874891470206
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -140,6 +122,10 @@ MonoBehaviour:
   speed: 4
   jump: 1
   isGrounded: 0
+  health: 0
+  healthBar: {fileID: 0}
+  maxHealth: 10
+  dedPanel: {fileID: 0}
 --- !u!114 &114716410293557880
 MonoBehaviour:
   m_ObjectHideFlags: 1

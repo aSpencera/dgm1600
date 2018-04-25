@@ -54,10 +54,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4613779759783784}
   - component: {fileID: 212544271912767818}
-  - component: {fileID: 70833784016860474}
   - component: {fileID: 114912920843374814}
   - component: {fileID: 50281058020547138}
   - component: {fileID: 95576559291078486}
+  - component: {fileID: 58268041103729178}
   m_Layer: 9
   m_Name: Player_Turtle
   m_TagString: Player
@@ -113,8 +113,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1311886329160856}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.72, y: 9.080382, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children:
   - {fileID: 4986991949026858}
@@ -155,9 +155,9 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 4
---- !u!70 &70833784016860474
-CapsuleCollider2D:
+  m_Constraints: 0
+--- !u!58 &58268041103729178
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -168,9 +168,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00749892, y: 0.011911333}
-  m_Size: {x: 0.19500363, y: 0.48617733}
-  m_Direction: 0
+  m_Offset: {x: 0.018276393, y: -0.006092131}
+  serializedVersion: 2
+  m_Radius: 0.19712472
 --- !u!95 &95576559291078486
 Animator:
   serializedVersion: 3
@@ -226,6 +226,10 @@ MonoBehaviour:
   speed: 4
   jump: 1
   isGrounded: 0
+  health: 0
+  healthBar: {fileID: 0}
+  maxHealth: 10
+  dedPanel: {fileID: 0}
 --- !u!114 &114965219820214008
 MonoBehaviour:
   m_ObjectHideFlags: 1
