@@ -22,6 +22,7 @@ public class DosPlayerMovement : MonoBehaviour
 	public Slider healthBar;
 	public float maxHealth = 10f;
 	public GameObject dedPanel;
+    public AudioClip hitSound;
 
 
 
@@ -99,19 +100,23 @@ public class DosPlayerMovement : MonoBehaviour
 		{
 			health -= 2;
             healthBar.value = health;
-		}
+            AudioSource.PlayClipAtPoint(hitSound, collision.transform.position);
+
+        }
 
 		if (collision.transform.tag == "Spike") 
 		{
 			health -= 5;
 			healthBar.value = health;
-		}
+            AudioSource.PlayClipAtPoint(hitSound, collision.transform.position);
+        }
 
 		if (collision.transform.tag == "Fire") 
 		{
 			health -= 10;
 			healthBar.value = health;
-		}
+            AudioSource.PlayClipAtPoint(hitSound, collision.transform.position);
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)

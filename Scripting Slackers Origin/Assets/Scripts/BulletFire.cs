@@ -8,12 +8,11 @@ public class BulletFire : MonoBehaviour {
 	public int rotationOffset = -90;
 	public Rigidbody2D bullet;
 	public float bulletSpeed = 300f;
-	//var bulletShot : Soundclip;
+    public AudioClip hitSound;
 
 
-	
-	// Update is called once per frame
-	void Update () 
+    // Update is called once per frame
+    void Update () 
 	{
 		Fire ();
 
@@ -35,8 +34,8 @@ public class BulletFire : MonoBehaviour {
 			var firedBullet = Instantiate (bullet, transform.position, transform.rotation);
 			firedBullet.AddForce (transform.up * bulletSpeed);
 
-			//audio.PlayOneShot (bulletShot);
-		}
+            AudioSource.PlayClipAtPoint(hitSound, transform.position);
+        }
 	}
 
 	void OnCollisionEnter2D(Collision2D collision)

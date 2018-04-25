@@ -100,6 +100,7 @@
     <Compile Include="Assets\Scripts\MusicManager.cs" />
     <Compile Include="Assets\Scripts\Pausing.cs" />
     <Compile Include="Assets\Scripts\PowerUp.cs" />
+    <Compile Include="Assets\Scripts\SongPlaying.cs" />
     <Compile Include="Assets\Scripts\SpawnScript.cs" />
     <Compile Include="Assets\Scripts\TopDownPlayerMovement.cs" />
   </ItemGroup>
