@@ -9,6 +9,8 @@ TagManager:
   - Enemy
   - Spike
   - Fire
+  - FinishTrigger
+  - FinishLine
   layers:
   - Default
   - TransparentFX

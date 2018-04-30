@@ -36,8 +36,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1566451411283676}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.1, y: 0.71, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -168.35437, y: -105.67789, z: 0}
   m_LocalScale: {x: 9, y: 9, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -86,8 +86,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83765d0daae63b469eaa977050e39a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colorTint: {r: 0.44852942, g: 0.1912846, b: 0.1912846, a: 0}
   value: 1
+  coinSound: {fileID: 8300000, guid: e6410d18c037c944bb1b97251a7ade83, type: 3}
 --- !u!212 &212089931419546346
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -518,6 +518,16 @@ Prefab:
       propertyPath: dedPanel
       value: 
       objectReference: {fileID: 173574433}
+    - target: {fileID: 114340213575740166, guid: 813b0f4d00f218049b3bb8c76a7a8f0d,
+        type: 2}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 6cf04199e8d84314083ff32d88d7f876, type: 3}
+    - target: {fileID: 114357731004183192, guid: 813b0f4d00f218049b3bb8c76a7a8f0d,
+        type: 2}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7134fdb5275ed0c4787f5e2832507046, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 813b0f4d00f218049b3bb8c76a7a8f0d, type: 2}
   m_IsPrefabParent: 0

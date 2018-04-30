@@ -11,7 +11,7 @@ public class Pausing : MonoBehaviour {
 
     public void Start()
     {
-        pausePanel.SetActive(false);
+		pausePanel.SetActive(false);
         pauseButton.SetActive(true);
     }
 

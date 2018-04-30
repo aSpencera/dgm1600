@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 3431808}
   m_Layer: 0
   m_Name: SpikeSmall (30)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 6513558}
   m_Layer: 0
   m_Name: SpikeSmall (11)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -312,6 +312,12 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &15666752 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114078135142725212, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1655928047}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &24126740
 GameObject:
   m_ObjectHideFlags: 0
@@ -324,7 +330,7 @@ GameObject:
   - component: {fileID: 24126742}
   m_Layer: 0
   m_Name: SpikeSmall (39)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -426,7 +432,7 @@ GameObject:
   - component: {fileID: 34189197}
   m_Layer: 0
   m_Name: SpikeSmall (5)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -876,7 +882,7 @@ GameObject:
   - component: {fileID: 69992708}
   m_Layer: 0
   m_Name: SpikeSmall (33)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1411,6 +1417,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &165852374
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 979227159}
+    m_Modifications:
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 22.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 38.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566451411283676, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_Name
+      value: _BlupeeMoney (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &166464452
 GameObject:
   m_ObjectHideFlags: 0
@@ -1539,7 +1591,7 @@ GameObject:
   - component: {fileID: 176069075}
   m_Layer: 0
   m_Name: SpikeBig (17)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1764,7 +1816,7 @@ GameObject:
   - component: {fileID: 202408785}
   m_Layer: 0
   m_Name: SpikeBig (4)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2119,7 +2171,7 @@ GameObject:
   - component: {fileID: 241380915}
   m_Layer: 0
   m_Name: SpikeBig (21)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2228,7 +2280,7 @@ GameObject:
   - component: {fileID: 242803418}
   m_Layer: 0
   m_Name: SpikeBig (30)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2640,7 +2692,7 @@ GameObject:
   - component: {fileID: 305988795}
   m_Layer: 0
   m_Name: SpikeSmall (21)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2742,7 +2794,7 @@ GameObject:
   - component: {fileID: 328078424}
   m_Layer: 0
   m_Name: SpikeSmall (35)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2844,7 +2896,7 @@ GameObject:
   - component: {fileID: 332848063}
   m_Layer: 0
   m_Name: SpikeSmall (36)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3050,6 +3102,48 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &340847745
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 979227159}
+    m_Modifications:
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.2818722
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 8.176269
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &348517970
 GameObject:
   m_ObjectHideFlags: 0
@@ -3410,7 +3504,7 @@ GameObject:
   - component: {fileID: 353717585}
   m_Layer: 0
   m_Name: SpikeSmall (10)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3512,7 +3606,7 @@ GameObject:
   - component: {fileID: 380225056}
   m_Layer: 0
   m_Name: SpikeSmall (12)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3730,7 +3824,7 @@ GameObject:
   - component: {fileID: 392832436}
   m_Layer: 0
   m_Name: SpikeSmall (45)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3820,6 +3914,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &395848306
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 979227159}
+    m_Modifications:
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 90.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 66.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566451411283676, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_Name
+      value: _BlupeeMoney (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &399435899
 GameObject:
   m_ObjectHideFlags: 0
@@ -4045,7 +4185,7 @@ GameObject:
   - component: {fileID: 457869354}
   m_Layer: 0
   m_Name: SpikeSmall (6)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4379,7 +4519,7 @@ GameObject:
   - component: {fileID: 469846966}
   m_Layer: 0
   m_Name: SpikeSmall (15)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4585,6 +4725,63 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &489148325
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4027109426569688, guid: a1b62e4f04ecd254eb3d5b7a249b84b3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.42176822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027109426569688, guid: a1b62e4f04ecd254eb3d5b7a249b84b3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 8.437812
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027109426569688, guid: a1b62e4f04ecd254eb3d5b7a249b84b3, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -13.663725
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027109426569688, guid: a1b62e4f04ecd254eb3d5b7a249b84b3, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027109426569688, guid: a1b62e4f04ecd254eb3d5b7a249b84b3, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027109426569688, guid: a1b62e4f04ecd254eb3d5b7a249b84b3, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027109426569688, guid: a1b62e4f04ecd254eb3d5b7a249b84b3, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027109426569688, guid: a1b62e4f04ecd254eb3d5b7a249b84b3, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114104496232133834, guid: a1b62e4f04ecd254eb3d5b7a249b84b3,
+        type: 2}
+      propertyPath: Money
+      value: 
+      objectReference: {fileID: 575875077}
+    - target: {fileID: 114104496232133834, guid: a1b62e4f04ecd254eb3d5b7a249b84b3,
+        type: 2}
+      propertyPath: badiesBooted
+      value: 
+      objectReference: {fileID: 15666752}
+    - target: {fileID: 114104496232133834, guid: a1b62e4f04ecd254eb3d5b7a249b84b3,
+        type: 2}
+      propertyPath: tickTock
+      value: 
+      objectReference: {fileID: 1114349428}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a1b62e4f04ecd254eb3d5b7a249b84b3, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &508208832
 GameObject:
   m_ObjectHideFlags: 0
@@ -4713,7 +4910,7 @@ GameObject:
   - component: {fileID: 508504703}
   m_Layer: 0
   m_Name: SpikeSmall (25)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5118,7 +5315,7 @@ GameObject:
   - component: {fileID: 529042003}
   m_Layer: 0
   m_Name: SpikeBig (37)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5459,7 +5656,7 @@ GameObject:
   - component: {fileID: 553793803}
   m_Layer: 0
   m_Name: SpikeSmall (32)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5549,6 +5746,12 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &575875077 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114484173611988756, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1655928047}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &581209107
 GameObject:
   m_ObjectHideFlags: 0
@@ -5632,7 +5835,7 @@ GameObject:
   - component: {fileID: 583063164}
   m_Layer: 0
   m_Name: SpikeBig (29)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5973,7 +6176,7 @@ GameObject:
   - component: {fileID: 613078725}
   m_Layer: 0
   m_Name: SpikeSmall (7)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6191,7 +6394,7 @@ GameObject:
   - component: {fileID: 683269826}
   m_Layer: 0
   m_Name: SpikeSmall (16)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6293,7 +6496,7 @@ GameObject:
   - component: {fileID: 688112621}
   m_Layer: 0
   m_Name: SpikeBig (8)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6660,7 +6863,7 @@ GameObject:
   - component: {fileID: 713787767}
   m_Layer: 0
   m_Name: SpikeBig (23)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7292,6 +7495,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &769870478
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 979227159}
+    m_Modifications:
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 99.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 146.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566451411283676, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_Name
+      value: _BlupeeMoney (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &774026526
 GameObject:
   m_ObjectHideFlags: 0
@@ -7375,7 +7624,7 @@ GameObject:
   - component: {fileID: 806107497}
   m_Layer: 0
   m_Name: SpikeBig (18)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7511,6 +7760,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114510770834421200, guid: df74d7cd35cd60e439660e5fd8f40594,
+        type: 2}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1942913756}
+    - target: {fileID: 114510770834421200, guid: df74d7cd35cd60e439660e5fd8f40594,
+        type: 2}
+      propertyPath: dedPanel
+      value: 
+      objectReference: {fileID: 1318637474}
+    - target: {fileID: 114510770834421200, guid: df74d7cd35cd60e439660e5fd8f40594,
+        type: 2}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 6cf04199e8d84314083ff32d88d7f876, type: 3}
+    - target: {fileID: 114521178681909134, guid: df74d7cd35cd60e439660e5fd8f40594,
+        type: 2}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7134fdb5275ed0c4787f5e2832507046, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: df74d7cd35cd60e439660e5fd8f40594, type: 2}
   m_IsPrefabParent: 0
@@ -7862,6 +8131,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &845516863
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 979227159}
+    m_Modifications:
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 130.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 105.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566451411283676, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_Name
+      value: _BlupeeMoney (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &866520268
 Prefab:
   m_ObjectHideFlags: 0
@@ -8140,6 +8455,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &877570322
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 979227159}
+    m_Modifications:
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 45.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 135.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566451411283676, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_Name
+      value: _BlupeeMoney (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &891238911
 GameObject:
   m_ObjectHideFlags: 0
@@ -8152,7 +8513,7 @@ GameObject:
   - component: {fileID: 891238913}
   m_Layer: 0
   m_Name: SpikeBig (33)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8377,7 +8738,7 @@ GameObject:
   - component: {fileID: 916546351}
   m_Layer: 0
   m_Name: SpikeBig (9)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8661,6 +9022,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &926226294 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1018283952830844, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1655928047}
 --- !u!1 &931459752
 GameObject:
   m_ObjectHideFlags: 0
@@ -8777,6 +9143,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!4 &933663915 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b,
+    type: 2}
+  m_PrefabInternal: {fileID: 877570322}
 --- !u!1 &938633659
 GameObject:
   m_ObjectHideFlags: 0
@@ -8789,7 +9160,7 @@ GameObject:
   - component: {fileID: 938633661}
   m_Layer: 0
   m_Name: SpikeBig (15)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8969,7 +9340,7 @@ GameObject:
   - component: {fileID: 962667130}
   m_Layer: 0
   m_Name: SpikeBig (25)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9137,6 +9508,44 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &979227158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 979227159}
+  m_Layer: 0
+  m_Name: Money
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &979227159
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 979227158}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0494138, y: 3.9129324, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1231686168}
+  - {fileID: 1974091449}
+  - {fileID: 1884430120}
+  - {fileID: 1943193140}
+  - {fileID: 1766504141}
+  - {fileID: 1579903688}
+  - {fileID: 933663915}
+  - {fileID: 1673476010}
+  - {fileID: 1889069536}
+  - {fileID: 1824564374}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &979268316
 GameObject:
   m_ObjectHideFlags: 0
@@ -9381,7 +9790,7 @@ GameObject:
   - component: {fileID: 1007580229}
   m_Layer: 0
   m_Name: SpikeSmall (3)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9693,7 +10102,7 @@ GameObject:
   - component: {fileID: 1049320800}
   m_Layer: 0
   m_Name: SpikeSmall (44)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10027,7 +10436,7 @@ GameObject:
   - component: {fileID: 1067494939}
   m_Layer: 0
   m_Name: SpikeBig (32)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10124,6 +10533,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1068035827 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1688698739300136, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1655928047}
 --- !u!1 &1070192484
 GameObject:
   m_ObjectHideFlags: 0
@@ -10207,7 +10621,7 @@ GameObject:
   - component: {fileID: 1070844596}
   m_Layer: 0
   m_Name: SpikeBig (12)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10432,7 +10846,7 @@ GameObject:
   - component: {fileID: 1072594283}
   m_Layer: 0
   m_Name: SpikeSmall (8)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10534,7 +10948,7 @@ GameObject:
   - component: {fileID: 1072996376}
   m_Layer: 0
   m_Name: SpikeBig (20)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10818,6 +11232,12 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1114349428 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114751974360869272, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1655928047}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1116720196
 GameObject:
   m_ObjectHideFlags: 0
@@ -10901,7 +11321,7 @@ GameObject:
   - component: {fileID: 1120777693}
   m_Layer: 0
   m_Name: SpikeSmall (31)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11074,7 +11494,7 @@ GameObject:
   - component: {fileID: 1136330627}
   m_Layer: 0
   m_Name: SpikeBig (11)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11270,7 +11690,7 @@ GameObject:
   - component: {fileID: 1144170911}
   m_Layer: 0
   m_Name: SpikeSmall (47)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11592,6 +12012,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &1203253926
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 979227159}
+    m_Modifications:
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 202
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 193.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566451411283676, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_Name
+      value: _BlupeeMoney (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1209597886
 GameObject:
   m_ObjectHideFlags: 0
@@ -11836,7 +12302,7 @@ GameObject:
   - component: {fileID: 1221015448}
   m_Layer: 0
   m_Name: SpikeSmall (37)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11997,6 +12463,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!4 &1231686168 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b,
+    type: 2}
+  m_PrefabInternal: {fileID: 340847745}
 --- !u!1 &1237111116
 GameObject:
   m_ObjectHideFlags: 0
@@ -12384,6 +12855,8 @@ GameObject:
   - component: {fileID: 1251931909}
   - component: {fileID: 1251931908}
   - component: {fileID: 1251931913}
+  - component: {fileID: 1251931915}
+  - component: {fileID: 1251931914}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -12477,6 +12950,30 @@ MonoBehaviour:
   xMax: 244
   yMax: 285
   target: {fileID: 1503227597}
+--- !u!114 &1251931914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1251931907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b51c6dfc16ff704c84a576c68140f1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1251931915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1251931907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b1a31c08b63cd1498d3fb74b094ed7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseButton: {fileID: 1068035827}
+  pausePanel: {fileID: 926226294}
 --- !u!1 &1257237917
 GameObject:
   m_ObjectHideFlags: 0
@@ -12863,7 +13360,7 @@ GameObject:
   - component: {fileID: 1304590109}
   m_Layer: 0
   m_Name: SpikeBig (28)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12960,6 +13457,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1318637474 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1798144262281472, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1655928047}
 --- !u!1 &1321246614
 GameObject:
   m_ObjectHideFlags: 0
@@ -12972,7 +13474,7 @@ GameObject:
   - component: {fileID: 1321246616}
   m_Layer: 0
   m_Name: SpikeSmall (4)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13493,7 +13995,7 @@ GameObject:
   - component: {fileID: 1374519086}
   m_Layer: 0
   m_Name: SpikeSmall (23)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13868,7 +14370,7 @@ GameObject:
   - component: {fileID: 1434805630}
   m_Layer: 0
   m_Name: SpikeSmall (20)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13958,6 +14460,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &1449074578
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 979227159}
+    m_Modifications:
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 193.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 66.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566451411283676, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_Name
+      value: _BlupeeMoney (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1449549918
 GameObject:
   m_ObjectHideFlags: 0
@@ -14086,7 +14634,7 @@ GameObject:
   - component: {fileID: 1451846600}
   m_Layer: 0
   m_Name: SpikeBig (7)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14543,7 +15091,7 @@ GameObject:
   - component: {fileID: 1498932013}
   m_Layer: 0
   m_Name: SpikeSmall (38)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14766,7 +15314,7 @@ GameObject:
   - component: {fileID: 1505736195}
   m_Layer: 0
   m_Name: SpikeSmall (26)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15383,7 +15931,7 @@ GameObject:
   - component: {fileID: 1547595778}
   m_Layer: 0
   m_Name: SpikeBig (10)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15899,6 +16447,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!4 &1579903688 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b,
+    type: 2}
+  m_PrefabInternal: {fileID: 845516863}
 --- !u!1 &1593752312
 GameObject:
   m_ObjectHideFlags: 0
@@ -16015,6 +16568,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &1596033311
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 979227159}
+    m_Modifications:
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 196.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 154.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566451411283676, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_Name
+      value: _BlupeeMoney (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1618618539
 GameObject:
   m_ObjectHideFlags: 0
@@ -16027,7 +16626,7 @@ GameObject:
   - component: {fileID: 1618618541}
   m_Layer: 0
   m_Name: SpikeBig (34)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16136,7 +16735,7 @@ GameObject:
   - component: {fileID: 1639334879}
   m_Layer: 0
   m_Name: SpikeBig (2)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16233,6 +16832,251 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &1642044957
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 979227159}
+    m_Modifications:
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 229.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 93.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566451411283676, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+      propertyPath: m_Name
+      value: _BlupeeMoney (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: de77fc9bb7dd9f740858f51201e9097b, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1655928047
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 224843361982117462, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224843361982117462, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224085931267409494, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224085931267409494, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224085931267409494, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224085931267409494, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224085931267409494, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224085931267409494, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224085931267409494, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224085931267409494, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 224085931267409494, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224085931267409494, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224085931267409494, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224085931267409494, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224085931267409494, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224085931267409494, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224085931267409494, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224085931267409494, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224085931267409494, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224085931267409494, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114241526184371544, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1251931915}
+    - target: {fileID: 114241526184371544, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnPause
+      objectReference: {fileID: 0}
+    - target: {fileID: 114035013024871492, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1251931915}
+    - target: {fileID: 114035013024871492, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnUnPause
+      objectReference: {fileID: 0}
+    - target: {fileID: 114899393440569444, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1251931915}
+    - target: {fileID: 114899393440569444, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnUnPause
+      objectReference: {fileID: 0}
+    - target: {fileID: 114899393440569444, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1251931914}
+    - target: {fileID: 114899393440569444, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: levelLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367709037474994, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1251931915}
+    - target: {fileID: 114367709037474994, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnUnPause
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367709037474994, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1251931914}
+    - target: {fileID: 114367709037474994, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: levelLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367709037474994, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Map_BossBattle
+      objectReference: {fileID: 0}
+    - target: {fileID: 114106535973338068, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1251931915}
+    - target: {fileID: 114106535973338068, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnUnPause
+      objectReference: {fileID: 0}
+    - target: {fileID: 114106535973338068, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1251931914}
+    - target: {fileID: 114106535973338068, guid: 000307de7bf7f6d489656744b7d33d46,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: levelLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033624506933280, guid: 000307de7bf7f6d489656744b7d33d46, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 000307de7bf7f6d489656744b7d33d46, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1666791717
 GameObject:
   m_ObjectHideFlags: 0
@@ -16420,6 +17264,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!4 &1673476010 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b,
+    type: 2}
+  m_PrefabInternal: {fileID: 769870478}
 --- !u!1 &1705338479
 GameObject:
   m_ObjectHideFlags: 0
@@ -16432,7 +17281,7 @@ GameObject:
   - component: {fileID: 1705338481}
   m_Layer: 0
   m_Name: SpikeBig (36)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16728,7 +17577,7 @@ GameObject:
   - component: {fileID: 1730884501}
   m_Layer: 0
   m_Name: SpikeBig (5)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16953,7 +17802,7 @@ GameObject:
   - component: {fileID: 1739579062}
   m_Layer: 0
   m_Name: SpikeSmall (9)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17055,7 +17904,7 @@ GameObject:
   - component: {fileID: 1744260027}
   m_Layer: 0
   m_Name: SpikeBig (16)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17223,6 +18072,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!4 &1766504141 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1642044957}
 --- !u!1 &1767301915
 GameObject:
   m_ObjectHideFlags: 0
@@ -17493,7 +18347,7 @@ GameObject:
   - component: {fileID: 1771019676}
   m_Layer: 0
   m_Name: SpikeSmall (14)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17886,6 +18740,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!4 &1824564374 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1203253926}
 --- !u!1 &1829942698
 GameObject:
   m_ObjectHideFlags: 0
@@ -18130,7 +18989,7 @@ GameObject:
   - component: {fileID: 1865114881}
   m_Layer: 0
   m_Name: SpikeSmall (19)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18232,7 +19091,7 @@ GameObject:
   - component: {fileID: 1873048917}
   m_Layer: 0
   m_Name: SpikeSmall (43)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18334,7 +19193,7 @@ GameObject:
   - component: {fileID: 1879070978}
   m_Layer: 0
   m_Name: SpikeSmall (13)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18540,6 +19399,16 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!4 &1884430120 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b,
+    type: 2}
+  m_PrefabInternal: {fileID: 395848306}
+--- !u!4 &1889069536 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1596033311}
 --- !u!1 &1913274094
 GameObject:
   m_ObjectHideFlags: 0
@@ -18668,7 +19537,7 @@ GameObject:
   - component: {fileID: 1930326926}
   m_Layer: 0
   m_Name: SpikeSmall (46)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18886,7 +19755,7 @@ GameObject:
   - component: {fileID: 1934274596}
   m_Layer: 0
   m_Name: SpikeSmall (2)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18976,6 +19845,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1942913756 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114115061600086082, guid: 000307de7bf7f6d489656744b7d33d46,
+    type: 2}
+  m_PrefabInternal: {fileID: 1655928047}
+  m_Script: {fileID: -113659843, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!4 &1943193140 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1449074578}
 --- !u!1 &1949909823
 GameObject:
   m_ObjectHideFlags: 0
@@ -19277,7 +20157,7 @@ GameObject:
   - component: {fileID: 1965487033}
   m_Layer: 0
   m_Name: SpikeSmall (34)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19379,7 +20259,7 @@ GameObject:
   - component: {fileID: 1967576240}
   m_Layer: 0
   m_Name: SpikeSmall (22)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19585,6 +20465,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!4 &1974091449 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4703875114089092, guid: de77fc9bb7dd9f740858f51201e9097b,
+    type: 2}
+  m_PrefabInternal: {fileID: 165852374}
 --- !u!1 &1988503552
 GameObject:
   m_ObjectHideFlags: 0
@@ -19597,7 +20482,7 @@ GameObject:
   - component: {fileID: 1988503554}
   m_Layer: 0
   m_Name: SpikeSmall
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19815,7 +20700,7 @@ GameObject:
   - component: {fileID: 2009875449}
   m_Layer: 0
   m_Name: SpikeBig (6)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20646,7 +21531,7 @@ GameObject:
   - component: {fileID: 2065746452}
   m_Layer: 0
   m_Name: SpikeBig
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21084,7 +21969,7 @@ GameObject:
   - component: {fileID: 2129780872}
   m_Layer: 0
   m_Name: SpikeBig (19)
-  m_TagString: Fire
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

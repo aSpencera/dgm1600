@@ -22,7 +22,9 @@ public class DosPlayerMovement : MonoBehaviour
 	public Slider healthBar;
 	public float maxHealth = 10f;
 	public GameObject dedPanel;
+	public GameObject finishPanel;
     public AudioClip hitSound;
+	public AudioClip finishSound;
 
 
 
@@ -35,6 +37,7 @@ public class DosPlayerMovement : MonoBehaviour
 		health = maxHealth;
 		healthBar.value = health;
 		dedPanel.SetActive(false);
+		finishPanel.SetActive(false);
 	}
 
     // Update is called once per frame
@@ -45,18 +48,6 @@ public class DosPlayerMovement : MonoBehaviour
         rigid.AddForce(new Vector2(Input.GetAxis("Horizontal") * speed, 0), ForceMode2D.Force);
         anim.SetFloat("HorizonGo", Input.GetAxisRaw("Horizontal"));
 
-        if (Input.GetAxisRaw("Horizontal") < -0.1f)
-        {
-            //Flip sprite renderer
-            rend.flipX = true;
-          
-        }
-        else if (Input.GetAxisRaw("Horizontal") < 0.1f)
-        {
-            //Unflip
-            rend.flipX = false;
-           
-        }
         
 
         if (Input.GetButtonDown("Jump"))
@@ -117,7 +108,19 @@ public class DosPlayerMovement : MonoBehaviour
 			healthBar.value = health;
             AudioSource.PlayClipAtPoint(hitSound, collision.transform.position);
         }
-    }
+
+		if (collision.transform.tag == "FinishLine") 
+		{
+			AudioSource.PlayClipAtPoint(finishSound, collision.transform.position);
+		}
+
+		if (collision.transform.tag == "FinishTrigger") 
+		{
+			finishPanel.SetActive(true);
+			Time.timeScale = 0;
+		}
+
+	}
 
     private void OnCollisionExit2D(Collision2D collision)
     {

@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class CoinCollector : MonoBehaviour {
 
-    public Color colorTint;
     public int value;
     private Manager myManager;
+	public AudioClip coinSound;
 
     private void Start()
     {
@@ -15,10 +15,11 @@ public class CoinCollector : MonoBehaviour {
     }
 
 
-    private void OnTriggerEnter2D(Collider2D colliider)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
         myManager.IncrementScore(value);
         Destroy(gameObject);
+		AudioSource.PlayClipAtPoint(coinSound, collider.transform.position);
     }
 
    
