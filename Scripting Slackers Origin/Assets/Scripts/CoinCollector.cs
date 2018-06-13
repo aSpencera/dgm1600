@@ -17,10 +17,13 @@ public class CoinCollector : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        myManager.IncrementScore(value);
-        Destroy(gameObject);
-		AudioSource.PlayClipAtPoint(coinSound, collider.transform.position);
-    }
+		if (collider.transform.tag == "Player")
+		{
+			myManager.IncrementScore (value);
+			Destroy (gameObject);
+			AudioSource.PlayClipAtPoint (coinSound, collider.transform.position);
+		}
+	}
 
    
 }

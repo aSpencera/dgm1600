@@ -17,18 +17,18 @@ public class DosPlayerMovement : MonoBehaviour
     private SpriteRenderer rend;
     public float jump;
     public bool isGrounded;
-    //public bool flippable;            Make it so I can control whether the player flips or not when moving 
 	public float health;
 	public Slider healthBar;
 	public float maxHealth = 10f;
 	public GameObject dedPanel;
 	public GameObject finishPanel;
     public AudioClip hitSound;
+	public AudioClip healthSound;
 	public AudioClip finishSound;
 
 
 
-    // Use this for initialization
+
     void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
@@ -40,7 +40,7 @@ public class DosPlayerMovement : MonoBehaviour
 		finishPanel.SetActive(false);
 	}
 
-    // Update is called once per frame
+
     void Update()
     {
         //Check for button pushes
@@ -73,6 +73,7 @@ public class DosPlayerMovement : MonoBehaviour
 		{
 			dedPanel.SetActive(true);
 			Time.timeScale = 0;
+			//When "Retry" Is pushed the health is still 0 so the time scale is still 0. Tell othe retry button to give 10 health.
 		}
 
     }
@@ -92,9 +93,8 @@ public class DosPlayerMovement : MonoBehaviour
 			health -= 2;
             healthBar.value = health;
             AudioSource.PlayClipAtPoint(hitSound, collision.transform.position);
-
         }
-
+			
 		if (collision.transform.tag == "Spike") 
 		{
 			health -= 5;
@@ -130,6 +130,22 @@ public class DosPlayerMovement : MonoBehaviour
         }
     }
 		
+	private void OnTriggerEnter2D(Collider2D collider)
+	{
+		if (collider.transform.tag == "HealthPack") 
+		{
+			health += 10;
+			healthBar.value = health;
+			AudioSource.PlayClipAtPoint(healthSound, collider.transform.position);
+		}
+
+		if (collider.transform.tag == "Blupee") 
+		{
+			health += 2;
+			healthBar.value = health;
+			AudioSource.PlayClipAtPoint(healthSound, collider.transform.position);
+		}
+	}
 
 }
 

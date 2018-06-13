@@ -9,20 +9,20 @@ EditorBuildSettings:
     path: Assets/_Scenes/BeginingVideo.unity
     guid: a59c1fcacaaa2d9498a0517dfe9b6f34
   - enabled: 1
+    path: Assets/_Scenes/AMeScreen.unity
+    guid: 8a770cb9ae36c204c8560ff872190384
+  - enabled: 1
+    path: Assets/_Scenes/BlankScreen.unity
+    guid: 18582ca4a72dd484394baacea4f2256e
+  - enabled: 1
     path: Assets/_Scenes/MainMenu.unity
     guid: 29f1cf8b46ddcdb459582bc32a555f1a
-  - enabled: 1
-    path: Assets/_Scenes/SongMenu.unity
-    guid: 06b114a42cb928348b24bcdd0523c6ff
   - enabled: 1
     path: Assets/_Scenes/PlayerMenu.unity
     guid: 1ba024a213ebfbd47a0b36e609bf14b2
   - enabled: 1
     path: Assets/_Scenes/Tutorial.unity
     guid: f81af5c22fba8774bbc70b2871cd514f
-  - enabled: 1
-    path: Assets/_Scenes/DeadScreen.unity
-    guid: 3e2f1d872d94f514a9941f610d358d00
   - enabled: 1
     path: Assets/_Scenes/PapHapMap.unity
     guid: 8f35b899c75766a4c9f7b0f1db7d0bcc
@@ -53,6 +53,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Map_SpinningWorld.unity
     guid: d41b2bc8c95a4f94695f0b2c2999e9dd
+  - enabled: 1
+    path: Assets/_Scenes/Map_BossBattle.unity
+    guid: e6ba45577e550a442a1f6d71d4316a11
   - enabled: 1
     path: Assets/_Scenes/Map_SpaceFlood.unity
     guid: b5ccaed47dacd244482581d8d5e429a7

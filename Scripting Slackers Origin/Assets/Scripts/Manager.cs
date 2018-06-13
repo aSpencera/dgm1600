@@ -14,10 +14,6 @@ public class Manager : MonoBehaviour {
     public Text badiesBooted;
 	private int badies;
 
-	public Text tickTock;
-	public float timer;
-    private float timerSave;
-
 
 
     public void Awake()
@@ -32,9 +28,7 @@ public class Manager : MonoBehaviour {
         }
         DontDestroyOnLoad(gameObject);
 
-        timerSave = timer;
-
-    }
+     }
 
 
     public void IncrementScore(int value)
@@ -50,17 +44,5 @@ public class Manager : MonoBehaviour {
         badiesBooted.text = badies.ToString();
     }
 
-    private void Update()
-    {
-        IncrementTickTock();
-    }
-
-    public void IncrementTickTock()
-    {
-        timer -= Time.deltaTime;
-        tickTock.text = ((int)timer).ToString();
-    }	
-		
-
-
+   
 }

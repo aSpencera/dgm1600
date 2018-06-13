@@ -51,20 +51,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\animController.cs" />
      <Compile Include="Assets\Scripts\ArmRotation.cs" />
      <Compile Include="Assets\Scripts\BulletFire.cs" />
      <Compile Include="Assets\Scripts\CameraRunnerScriptY.cs" />
      <Compile Include="Assets\Scripts\CameraRunnerScriptZ.cs" />
+     <Compile Include="Assets\Scripts\CameraSliding.cs" />
      <Compile Include="Assets\Scripts\CoinCollector.cs" />
      <Compile Include="Assets\Scripts\DestroyerScript.cs" />
      <Compile Include="Assets\Scripts\DestroyInTime.cs" />
      <Compile Include="Assets\Scripts\DosPlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\EatingFire.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
+     <Compile Include="Assets\Scripts\LevelSelectManager.cs" />
      <Compile Include="Assets\Scripts\Manager.cs" />
      <Compile Include="Assets\Scripts\MusicManager.cs" />
+     <Compile Include="Assets\Scripts\PanelTrigger.cs" />
      <Compile Include="Assets\Scripts\Pausing.cs" />
-     <Compile Include="Assets\Scripts\PowerUp.cs" />
-     <Compile Include="Assets\Scripts\SongPlaying.cs" />
      <Compile Include="Assets\Scripts\SpawnScript.cs" />
      <Compile Include="Assets\Scripts\TopDownPlayerMovement.cs" />
  <Reference Include="UnityEngine.UI">

@@ -6,13 +6,15 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour {
 
-    //public Manager manager;
+	public string levelTag;
 
 
     public void levelLoader(string sceneName)
     {
+		PlayerPrefs.SetInt (levelTag, 1);
         SceneManager.LoadScene(sceneName);
     }
+
 
 }
 
